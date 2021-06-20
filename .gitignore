@@ -1,0 +1,7 @@
+freecurrencyapi_key
+src/__pycache__
+src/settings.json
+src/log.txt
+src/.vscode
+Pipfile.lock
+
