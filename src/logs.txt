@@ -71,3 +71,429 @@
 2021-06-20 16:19:26.789226 : ERROR : 504 Not connected
 2021-06-20 16:19:26.789279 : ERROR : 504 Not connected
 2021-06-20 16:19:26.789303 : waiting for EUR/USD data
+2021-06-20 20:27:26.203954 : connecting to the broker
+2021-06-20 20:27:28.218264 : received new order id: 1
+2021-06-20 20:27:28.218518 : connection successful
+2021-06-20 20:27:30.220997 : asking data for EUR/USD
+2021-06-20 20:27:30.222398 : waiting for EUR/USD data
+2021-06-20 20:28:32.396372 : all data for EUR/USD has been retrieved
+2021-06-21 17:26:49.320773 : connecting to the broker
+2021-06-21 17:26:51.348007 : connection successful
+2021-06-21 17:26:51.347873 : received new order id: 1
+2021-06-21 17:26:53.349933 : asking data for EUR/USD
+2021-06-21 17:26:53.350983 : waiting for EUR/USD data
+2021-06-21 17:26:56.137918 : all data for EUR/USD has been retrieved
+2021-06-21 17:56:28.971406 : connecting to the broker
+2021-06-21 17:56:30.977816 : connection successful
+2021-06-21 17:56:32.980307 : asking data for EUR/USD
+2021-06-21 17:56:32.980888 : ERROR : 504 Not connected
+2021-06-21 17:56:32.981276 : ERROR : 504 Not connected
+2021-06-21 17:56:32.981617 : ERROR : 504 Not connected
+2021-06-21 17:56:32.981838 : ERROR : 504 Not connected
+2021-06-21 17:56:32.982034 : ERROR : 504 Not connected
+2021-06-21 17:56:32.982244 : ERROR : 504 Not connected
+2021-06-21 17:56:32.982336 : waiting for EUR/USD data
+2021-06-21 17:56:40.428467 : connecting to the broker
+2021-06-21 17:56:42.434419 : connection successful
+2021-06-21 17:56:44.436886 : asking data for EUR/USD
+2021-06-21 17:56:44.437460 : ERROR : 504 Not connected
+2021-06-21 17:56:44.437910 : ERROR : 504 Not connected
+2021-06-21 17:56:44.438206 : ERROR : 504 Not connected
+2021-06-21 17:56:44.438403 : ERROR : 504 Not connected
+2021-06-21 17:56:44.438580 : ERROR : 504 Not connected
+2021-06-21 17:56:44.438738 : ERROR : 504 Not connected
+2021-06-21 17:56:44.438829 : waiting for EUR/USD data
+2021-06-21 17:58:01.319097 : connecting to the broker
+2021-06-21 17:58:03.345050 : received new order id: 1
+2021-06-21 17:58:03.345260 : connection successful
+2021-06-21 17:58:05.348949 : asking data for EUR/USD
+2021-06-21 17:58:05.350536 : waiting for EUR/USD data
+2021-06-21 17:58:08.329498 : all data for EUR/USD has been retrieved
+2021-06-21 17:59:43.046046 : connecting to the broker
+2021-06-21 17:59:45.051839 : connection successful
+2021-06-21 17:59:47.054386 : asking data for EUR/USD
+2021-06-21 17:59:47.054933 : ERROR : 504 Not connected
+2021-06-21 17:59:47.055320 : ERROR : 504 Not connected
+2021-06-21 17:59:47.055612 : ERROR : 504 Not connected
+2021-06-21 17:59:47.055864 : ERROR : 504 Not connected
+2021-06-21 17:59:47.056055 : ERROR : 504 Not connected
+2021-06-21 17:59:47.056213 : ERROR : 504 Not connected
+2021-06-21 17:59:47.056285 : waiting for EUR/USD data
+2021-06-21 18:00:33.388735 : connecting to the broker
+2021-06-21 18:00:35.394366 : connection successful
+2021-06-21 18:00:37.397023 : asking data for EUR/USD
+2021-06-21 18:00:37.397618 : ERROR : 504 Not connected
+2021-06-21 18:00:37.398075 : ERROR : 504 Not connected
+2021-06-21 18:00:37.398386 : ERROR : 504 Not connected
+2021-06-21 18:00:37.398577 : ERROR : 504 Not connected
+2021-06-21 18:00:37.398677 : waiting for EUR/USD data
+2021-06-22 18:44:42.017822 : connecting to the broker
+2021-06-22 18:44:44.046210 : connection successful
+2021-06-22 18:44:44.046122 : received new order id: 1
+2021-06-22 18:44:46.048500 : asking data for EUR/USD
+2021-06-22 18:44:46.049425 : waiting for EUR/USD data
+2021-06-22 18:44:53.482617 : all data for EUR/USD has been retrieved
+2021-06-22 18:46:45.151612 : connecting to the broker
+2021-06-22 18:46:47.163685 : connection successful
+2021-06-22 18:46:49.166617 : asking data for EUR/USD
+2021-06-22 18:46:49.168881 : ERROR : 504 Not connected
+2021-06-22 18:46:49.169395 : ERROR : 504 Not connected
+2021-06-22 18:46:49.169910 : ERROR : 504 Not connected
+2021-06-22 18:46:49.170509 : ERROR : 504 Not connected
+2021-06-22 18:46:49.170700 : waiting for EUR/USD data
+2021-06-22 18:47:54.589972 : connecting to the broker
+2021-06-22 18:47:56.621498 : connection successful
+2021-06-22 18:47:56.622885 : received new order id: 1
+2021-06-22 18:47:58.628503 : asking data for EUR/USD
+2021-06-22 18:47:58.630639 : waiting for EUR/USD data
+2021-06-22 18:48:02.694561 : all data for EUR/USD has been retrieved
+2021-06-22 18:49:46.636898 : connecting to the broker
+2021-06-22 18:49:48.646715 : connection successful
+2021-06-22 18:49:48.647992 : received new order id: 1
+2021-06-22 18:49:50.649444 : asking data for EUR/USD
+2021-06-22 18:49:50.652005 : waiting for EUR/USD data
+2021-06-22 18:49:58.434566 : all data for EUR/USD has been retrieved
+2021-06-22 18:50:13.722275 : connecting to the broker
+2021-06-22 18:50:15.734177 : received new order id: 1
+2021-06-22 18:50:15.734395 : connection successful
+2021-06-22 18:50:17.741553 : asking data for EUR/USD
+2021-06-22 18:50:17.744301 : waiting for EUR/USD data
+2021-06-22 18:50:19.892884 : all data for EUR/USD has been retrieved
+2021-06-22 21:17:40.640950 : connecting to the broker
+2021-06-22 21:17:42.646721 : connection successful
+2021-06-22 21:17:42.646651 : received new order id: 1
+2021-06-22 21:17:55.836264 : connecting to the broker
+2021-06-22 21:17:57.842259 : received new order id: 1
+2021-06-22 21:17:57.842502 : connection successful
+2021-06-22 21:17:59.845350 : asking data for EUR/USD
+2021-06-22 21:17:59.846480 : waiting for EUR/USD data
+2021-06-22 21:19:43.715105 : ERROR : 200 No security definition has been found for the request
+2021-06-22 21:19:43.751752 : ERROR : 200 No security definition has been found for the request
+2021-06-22 21:19:43.782800 : ERROR : 200 No security definition has been found for the request
+2021-06-22 21:19:43.818862 : ERROR : 200 No security definition has been found for the request
+2021-06-22 21:21:27.921412 : connecting to the broker
+2021-06-22 21:21:29.926744 : connection successful
+2021-06-22 21:21:31.929140 : asking data for EUR/USD
+2021-06-22 21:21:31.929577 : ERROR : 504 Not connected
+2021-06-22 21:21:31.929770 : ERROR : 504 Not connected
+2021-06-22 21:21:31.929920 : ERROR : 504 Not connected
+2021-06-22 21:21:31.930058 : ERROR : 504 Not connected
+2021-06-22 21:21:31.930150 : waiting for EUR/USD data
+2021-06-22 21:30:32.563528 : connecting to the broker
+2021-06-22 21:30:34.604539 : received new order id: 1
+2021-06-22 21:30:34.604803 : connection successful
+2021-06-22 21:30:36.607340 : asking data for EUR/USD
+2021-06-22 21:30:36.608573 : waiting for EUR/USD data
+2021-06-22 21:30:44.545562 : all data for EUR/USD has been retrieved
+2021-06-22 21:31:43.008537 : connecting to the broker
+2021-06-22 21:31:45.022143 : connection successful
+2021-06-22 21:31:45.021992 : received new order id: 1
+2021-06-22 21:31:47.023606 : asking data for EUR/USD
+2021-06-22 21:31:47.026032 : waiting for EUR/USD data
+2021-06-22 21:31:55.471632 : all data for EUR/USD has been retrieved
+2021-06-22 21:42:21.600978 : connecting to the broker
+2021-06-22 21:42:23.613435 : connection successful
+2021-06-22 21:42:23.613348 : received new order id: 1
+2021-06-22 21:42:25.622150 : asking data for EUR/USD
+2021-06-22 21:42:25.625489 : waiting for EUR/USD data
+2021-06-22 21:42:34.926873 : all data for EUR/USD has been retrieved
+2021-06-22 21:43:42.221594 : connecting to the broker
+2021-06-22 21:43:44.236961 : received new order id: 1
+2021-06-22 21:43:44.237082 : connection successful
+2021-06-22 21:43:46.242364 : asking data for EUR/USD
+2021-06-22 21:43:46.243937 : waiting for EUR/USD data
+2021-06-22 21:43:55.239245 : all data for EUR/USD has been retrieved
+2021-06-23 13:08:44.805893 : connecting to the broker
+2021-06-23 13:08:46.839006 : received new order id: 1
+2021-06-23 13:08:46.839113 : connection successful
+2021-06-23 13:08:48.844573 : asking data for EUR/USD
+2021-06-23 13:08:48.847114 : waiting for EUR/USD data
+2021-06-23 13:08:56.947070 : all data for EUR/USD has been retrieved
+2021-06-23 13:09:35.891679 : connecting to the broker
+2021-06-23 13:09:37.903537 : received new order id: 1
+2021-06-23 13:09:37.903666 : connection successful
+2021-06-23 13:09:39.908621 : asking data for EUR/USD
+2021-06-23 13:09:39.910954 : waiting for EUR/USD data
+2021-06-23 13:09:42.218252 : all data for EUR/USD has been retrieved
+2021-06-23 13:10:53.457661 : connecting to the broker
+2021-06-23 13:10:55.467522 : received new order id: 1
+2021-06-23 13:10:55.467244 : connection successful
+2021-06-23 13:10:57.471786 : asking data for EUR/USD
+2021-06-23 13:10:57.473980 : waiting for EUR/USD data
+2021-06-23 13:11:05.851608 : all data for EUR/USD has been retrieved
+2021-06-23 13:15:04.502938 : connecting to the broker
+2021-06-23 13:15:06.514296 : received new order id: 1
+2021-06-23 13:15:06.514532 : connection successful
+2021-06-23 13:15:08.521433 : asking data for EUR/USD
+2021-06-23 13:15:08.523556 : waiting for EUR/USD data
+2021-06-23 13:15:16.932084 : all data for EUR/USD has been retrieved
+2021-06-24 18:36:10.987957 : connecting to the broker
+2021-06-24 18:36:13.015704 : received new order id: 1
+2021-06-24 18:36:13.015775 : connection successful
+2021-06-24 18:36:15.019722 : asking data for EUR/USD
+2021-06-24 18:36:15.021036 : waiting for EUR/USD data
+2021-06-24 18:36:22.320876 : all data for EUR/USD has been retrieved
+2021-06-24 18:36:57.343189 : connecting to the broker
+2021-06-24 18:36:59.348862 : received new order id: 1
+2021-06-24 18:36:59.349253 : connection successful
+2021-06-24 18:37:01.351673 : asking data for EUR/USD
+2021-06-24 18:37:01.352897 : waiting for EUR/USD data
+2021-06-24 18:37:02.915917 : all data for EUR/USD has been retrieved
+2021-06-24 18:37:14.632337 : connecting to the broker
+2021-06-24 18:37:16.637242 : received new order id: 1
+2021-06-24 18:37:16.637476 : connection successful
+2021-06-24 18:37:18.639994 : asking data for EUR/USD
+2021-06-24 18:37:18.640542 : waiting for EUR/USD data
+2021-06-24 18:37:25.428932 : all data for EUR/USD has been retrieved
+2021-06-24 18:37:47.055342 : connecting to the broker
+2021-06-24 18:37:49.061116 : connection successful
+2021-06-24 18:37:49.060987 : received new order id: 1
+2021-06-24 18:37:51.064523 : asking data for EUR/USD
+2021-06-24 18:37:51.065471 : waiting for EUR/USD data
+2021-06-24 18:37:52.866208 : all data for EUR/USD has been retrieved
+2021-06-24 18:42:38.350860 : connecting to the broker
+2021-06-24 18:42:40.356814 : connection successful
+2021-06-24 18:42:40.356672 : received new order id: 1
+2021-06-24 18:42:42.361070 : asking data for EUR/USD
+2021-06-24 18:42:42.362265 : waiting for EUR/USD data
+2021-06-24 18:42:49.609642 : all data for EUR/USD has been retrieved
+2021-06-24 18:43:56.893936 : connecting to the broker
+2021-06-24 18:43:58.904002 : connection successful
+2021-06-24 18:44:00.905613 : asking data for EUR/USD
+2021-06-24 18:44:00.907919 : ERROR : 504 Not connected
+2021-06-24 18:44:00.908576 : ERROR : 504 Not connected
+2021-06-24 18:44:00.908800 : ERROR : 504 Not connected
+2021-06-24 18:44:00.908947 : ERROR : 504 Not connected
+2021-06-24 18:44:00.908986 : waiting for EUR/USD data
+2021-06-24 18:44:08.126200 : connecting to the broker
+2021-06-24 18:44:10.137039 : connection successful
+2021-06-24 18:44:12.140697 : asking data for EUR/USD
+2021-06-24 18:44:12.143053 : ERROR : 504 Not connected
+2021-06-24 18:44:12.143701 : ERROR : 504 Not connected
+2021-06-24 18:44:12.144322 : ERROR : 504 Not connected
+2021-06-24 18:44:12.144903 : ERROR : 504 Not connected
+2021-06-24 18:44:12.145048 : waiting for EUR/USD data
+2021-06-24 18:44:56.634938 : connecting to the broker
+2021-06-24 18:44:58.667400 : received new order id: 1
+2021-06-24 18:44:58.666421 : connection successful
+2021-06-24 18:45:00.669740 : asking data for EUR/USD
+2021-06-24 18:45:00.672029 : waiting for EUR/USD data
+2021-06-24 18:45:03.238290 : all data for EUR/USD has been retrieved
+2021-06-24 18:46:12.848460 : connecting to the broker
+2021-06-24 18:46:14.858253 : connection successful
+2021-06-24 18:46:14.859288 : received new order id: 1
+2021-06-24 18:46:16.861083 : asking data for EUR/USD
+2021-06-24 18:46:16.863231 : waiting for EUR/USD data
+2021-06-24 18:46:25.031737 : all data for EUR/USD has been retrieved
+2021-06-24 18:47:37.325026 : connecting to the broker
+2021-06-24 18:47:39.335608 : connection successful
+2021-06-24 18:47:39.336023 : received new order id: 1
+2021-06-24 18:47:41.336543 : asking data for EUR/USD
+2021-06-24 18:47:41.337237 : waiting for EUR/USD data
+2021-06-24 18:47:49.334065 : all data for EUR/USD has been retrieved
+2021-06-24 18:50:12.134321 : connecting to the broker
+2021-06-24 18:50:14.147011 : connection successful
+2021-06-24 18:50:14.147902 : received new order id: 1
+2021-06-24 18:50:16.150705 : asking data for EUR/USD
+2021-06-24 18:50:16.152543 : waiting for EUR/USD data
+2021-06-24 18:50:23.934429 : all data for EUR/USD has been retrieved
+2021-06-25 12:02:12.698854 : connecting to the broker
+2021-06-25 12:02:14.733392 : received new order id: 1
+2021-06-25 12:02:14.733618 : connection successful
+2021-06-25 12:02:16.736729 : asking data for EUR/USD
+2021-06-25 12:02:16.737693 : waiting for EUR/USD data
+2021-06-25 12:02:24.563055 : all data for EUR/USD has been retrieved
+2021-06-25 12:03:22.482509 : connecting to the broker
+2021-06-25 12:03:24.494806 : connection successful
+2021-06-25 12:03:24.496359 : received new order id: 1
+2021-06-25 12:03:26.497061 : asking data for EUR/USD
+2021-06-25 12:03:26.499050 : waiting for EUR/USD data
+2021-06-25 12:03:35.691146 : all data for EUR/USD has been retrieved
+2021-06-25 12:06:52.744784 : connecting to the broker
+2021-06-25 12:06:54.757425 : connection successful
+2021-06-25 12:06:54.758674 : received new order id: 1
+2021-06-25 12:06:56.760097 : asking data for EUR/USD
+2021-06-25 12:06:56.761071 : waiting for EUR/USD data
+2021-06-25 12:06:57.816988 : all data for EUR/USD has been retrieved
+2021-06-25 12:07:22.304091 : connecting to the broker
+2021-06-25 12:07:24.317667 : connection successful
+2021-06-25 12:07:24.318550 : received new order id: 1
+2021-06-25 12:07:26.321348 : asking data for EUR/USD
+2021-06-25 12:07:26.324747 : waiting for EUR/USD data
+2021-06-25 12:07:27.517735 : all data for EUR/USD has been retrieved
+2021-06-25 12:08:34.023020 : connecting to the broker
+2021-06-25 12:08:36.037416 : connection successful
+2021-06-25 12:08:36.038421 : received new order id: 1
+2021-06-25 12:08:38.040913 : asking data for EUR/USD
+2021-06-25 12:08:38.041950 : waiting for EUR/USD data
+2021-06-25 12:08:39.350950 : all data for EUR/USD has been retrieved
+2021-06-25 13:05:05.651861 : connecting to the broker
+2021-06-25 13:05:07.664782 : connection successful
+2021-06-25 13:05:07.666303 : received new order id: 1
+2021-06-25 13:05:09.667692 : asking data for EUR/USD
+2021-06-25 13:05:09.669579 : waiting for EUR/USD data
+2021-06-25 13:05:11.059510 : all data for EUR/USD has been retrieved
+2021-06-25 13:07:25.244707 : connecting to the broker
+2021-06-25 13:07:27.258192 : received new order id: 1
+2021-06-25 13:07:27.258609 : connection successful
+2021-06-25 13:07:29.261439 : asking data for EUR/USD
+2021-06-25 13:07:29.263760 : waiting for EUR/USD data
+2021-06-25 13:07:30.588984 : all data for EUR/USD has been retrieved
+2021-06-25 13:08:42.756132 : connecting to the broker
+2021-06-25 13:08:44.769892 : connection successful
+2021-06-25 13:08:44.770927 : received new order id: 1
+2021-06-25 13:08:46.773630 : asking data for EUR/USD
+2021-06-25 13:08:46.775517 : waiting for EUR/USD data
+2021-06-25 13:08:48.191346 : all data for EUR/USD has been retrieved
+2021-06-25 13:13:41.423893 : connecting to the broker
+2021-06-25 13:13:43.437723 : connection successful
+2021-06-25 13:13:43.438713 : received new order id: 1
+2021-06-25 13:13:45.440050 : asking data for EUR/USD
+2021-06-25 13:13:45.442239 : waiting for EUR/USD data
+2021-06-25 13:13:46.980238 : all data for EUR/USD has been retrieved
+2021-06-25 13:14:13.646687 : connecting to the broker
+2021-06-25 13:14:15.661971 : received new order id: 1
+2021-06-25 13:14:15.662211 : connection successful
+2021-06-25 13:14:17.665459 : asking data for EUR/USD
+2021-06-25 13:14:17.667917 : waiting for EUR/USD data
+2021-06-25 13:14:19.055135 : all data for EUR/USD has been retrieved
+2021-06-25 13:14:41.808039 : connecting to the broker
+2021-06-25 13:14:43.821907 : connection successful
+2021-06-25 13:14:43.823087 : received new order id: 1
+2021-06-25 13:14:45.825746 : asking data for EUR/USD
+2021-06-25 13:14:45.827773 : waiting for EUR/USD data
+2021-06-25 13:14:47.331272 : all data for EUR/USD has been retrieved
+2021-06-25 13:15:27.559106 : connecting to the broker
+2021-06-25 13:15:29.566321 : received new order id: 1
+2021-06-25 13:15:29.567132 : connection successful
+2021-06-25 13:15:31.569587 : asking data for EUR/USD
+2021-06-25 13:15:31.570595 : waiting for EUR/USD data
+2021-06-25 13:15:32.529784 : all data for EUR/USD has been retrieved
+2021-06-25 13:17:18.922672 : connecting to the broker
+2021-06-25 13:17:20.928201 : received new order id: 1
+2021-06-25 13:17:20.928616 : connection successful
+2021-06-25 13:17:22.931991 : asking data for EUR/USD
+2021-06-25 13:17:22.932836 : waiting for EUR/USD data
+2021-06-25 13:17:23.654823 : all data for EUR/USD has been retrieved
+2021-06-25 14:31:03.892635 : connecting to the broker
+2021-06-25 14:31:05.904902 : connection successful
+2021-06-25 14:31:07.908859 : asking data for EUR/USD
+2021-06-25 14:31:07.910849 : ERROR : 504 Not connected
+2021-06-25 14:31:07.911448 : ERROR : 504 Not connected
+2021-06-25 14:31:07.912073 : ERROR : 504 Not connected
+2021-06-25 14:31:07.912551 : ERROR : 504 Not connected
+2021-06-25 14:31:07.912717 : waiting for EUR/USD data
+2021-06-25 14:32:13.232690 : connecting to the broker
+2021-06-25 14:32:15.270183 : connection successful
+2021-06-25 14:32:15.271478 : received new order id: 1
+2021-06-25 14:32:17.274254 : asking data for EUR/USD
+2021-06-25 14:32:17.276007 : waiting for EUR/USD data
+2021-06-25 14:32:18.484458 : all data for EUR/USD has been retrieved
+2021-06-25 14:33:04.870611 : connecting to the broker
+2021-06-25 14:33:06.882406 : received new order id: 1
+2021-06-25 14:33:06.882668 : connection successful
+2021-06-25 14:33:08.883995 : asking data for EUR/USD
+2021-06-25 14:33:08.885976 : waiting for EUR/USD data
+2021-06-25 14:33:10.037820 : all data for EUR/USD has been retrieved
+2021-06-25 14:33:46.030820 : connecting to the broker
+2021-06-25 14:33:48.040970 : received new order id: 1
+2021-06-25 14:33:48.041179 : connection successful
+2021-06-25 14:33:50.045414 : asking data for EUR/USD
+2021-06-25 14:33:50.047539 : waiting for EUR/USD data
+2021-06-25 14:33:51.050200 : all data for EUR/USD has been retrieved
+2021-06-25 14:34:03.584829 : connecting to the broker
+2021-06-25 14:34:05.593424 : connection successful
+2021-06-25 14:34:05.594594 : received new order id: 1
+2021-06-25 14:34:07.595887 : asking data for EUR/USD
+2021-06-25 14:34:07.596865 : waiting for EUR/USD data
+2021-06-25 14:34:08.748178 : all data for EUR/USD has been retrieved
+2021-06-25 14:57:25.635696 : connecting to the broker
+2021-06-25 14:57:27.645215 : connection successful
+2021-06-25 14:57:27.646261 : received new order id: 1
+2021-06-25 14:57:29.649391 : asking data for EUR/USD
+2021-06-25 14:57:29.652115 : waiting for EUR/USD data
+2021-06-25 14:57:30.681256 : all data for EUR/USD has been retrieved
+2021-06-25 14:59:02.441557 : connecting to the broker
+2021-06-25 14:59:04.452746 : received new order id: 1
+2021-06-25 14:59:04.451888 : connection successful
+2021-06-25 14:59:06.458898 : asking data for EUR/USD
+2021-06-25 14:59:06.461417 : waiting for EUR/USD data
+2021-06-25 14:59:07.399378 : all data for EUR/USD has been retrieved
+2021-06-25 14:59:30.985707 : connecting to the broker
+2021-06-25 14:59:32.997894 : connection successful
+2021-06-25 14:59:32.999221 : received new order id: 1
+2021-06-25 14:59:35.002037 : asking data for EUR/USD
+2021-06-25 14:59:35.004111 : waiting for EUR/USD data
+2021-06-25 14:59:36.140827 : all data for EUR/USD has been retrieved
+2021-06-25 15:01:46.509009 : connecting to the broker
+2021-06-25 15:01:48.520375 : connection successful
+2021-06-25 15:01:48.521306 : received new order id: 1
+2021-06-25 15:01:50.524061 : asking data for EUR/USD
+2021-06-25 15:01:50.526435 : waiting for EUR/USD data
+2021-06-25 15:01:51.540747 : all data for EUR/USD has been retrieved
+2021-06-25 15:02:19.876949 : connecting to the broker
+2021-06-25 15:02:21.889348 : received new order id: 1
+2021-06-25 15:02:21.888422 : connection successful
+2021-06-25 15:02:23.895330 : asking data for EUR/USD
+2021-06-25 15:02:23.897260 : waiting for EUR/USD data
+2021-06-25 15:02:24.870874 : all data for EUR/USD has been retrieved
+2021-06-25 15:42:17.811622 : connecting to the broker
+2021-06-25 15:42:19.821150 : connection successful
+2021-06-25 15:42:19.822485 : received new order id: 1
+2021-06-25 15:42:21.824434 : asking data for EUR/USD
+2021-06-25 15:42:21.826471 : waiting for EUR/USD data
+2021-06-25 15:42:22.823258 : all data for EUR/USD has been retrieved
+2021-06-25 15:43:44.917311 : connecting to the broker
+2021-06-25 15:43:46.928611 : connection successful
+2021-06-25 15:43:46.929737 : received new order id: 1
+2021-06-25 15:43:48.932091 : asking data for EUR/USD
+2021-06-25 15:43:48.935340 : waiting for EUR/USD data
+2021-06-25 15:43:50.097527 : all data for EUR/USD has been retrieved
+2021-06-25 15:46:44.105528 : connecting to the broker
+2021-06-25 15:46:46.121773 : received new order id: 1
+2021-06-25 15:46:46.121207 : connection successful
+2021-06-25 15:46:48.128319 : asking data for EUR/USD
+2021-06-25 15:46:48.130454 : waiting for EUR/USD data
+2021-06-25 15:46:49.218710 : all data for EUR/USD has been retrieved
+2021-06-25 15:54:29.955179 : connecting to the broker
+2021-06-25 15:54:31.960064 : received new order id: 1
+2021-06-25 15:54:31.960287 : connection successful
+2021-06-25 15:54:33.963388 : asking data for EUR/USD
+2021-06-25 15:54:33.964883 : waiting for EUR/USD data
+2021-06-25 15:54:35.703616 : all data for EUR/USD has been retrieved
+2021-06-25 15:54:58.318816 : connecting to the broker
+2021-06-25 15:55:00.326089 : received new order id: 1
+2021-06-25 15:55:00.326334 : connection successful
+2021-06-25 15:55:02.329390 : asking data for EUR/USD
+2021-06-25 15:55:02.330570 : waiting for EUR/USD data
+2021-06-25 15:55:04.083147 : all data for EUR/USD has been retrieved
+2021-06-25 15:59:14.793464 : connecting to the broker
+2021-06-25 15:59:16.798793 : received new order id: 1
+2021-06-25 15:59:16.799007 : connection successful
+2021-06-25 15:59:18.802565 : asking data for EUR/USD
+2021-06-25 15:59:18.803788 : waiting for EUR/USD data
+2021-06-25 15:59:20.795397 : all data for EUR/USD has been retrieved
+2021-06-25 15:59:49.944298 : connecting to the broker
+2021-06-25 15:59:51.948282 : received new order id: 1
+2021-06-25 15:59:51.948540 : connection successful
+2021-06-25 15:59:53.952890 : asking data for EUR/USD
+2021-06-25 15:59:53.953938 : waiting for EUR/USD data
+2021-06-25 15:59:56.122445 : all data for EUR/USD has been retrieved
+2021-06-25 16:08:26.046287 : connecting to the broker
+2021-06-25 16:08:28.052205 : received new order id: 1
+2021-06-25 16:08:28.052327 : connection successful
+2021-06-25 16:08:30.055888 : asking data for EUR/USD
+2021-06-25 16:08:30.056918 : waiting for EUR/USD data
+2021-06-25 16:08:31.919220 : all data for EUR/USD has been retrieved
+2021-06-25 16:13:12.155649 : connecting to the broker
+2021-06-25 16:13:14.159904 : received new order id: 1
+2021-06-25 16:13:14.160144 : connection successful
+2021-06-25 16:13:16.162659 : asking data for EUR/USD
+2021-06-25 16:13:16.163726 : waiting for EUR/USD data
+2021-06-25 16:13:18.067614 : all data for EUR/USD has been retrieved
+2021-06-25 16:15:50.800115 : connecting to the broker
+2021-06-25 16:15:52.805847 : received new order id: 1
+2021-06-25 16:15:52.806240 : connection successful
+2021-06-25 16:15:54.807765 : asking data for EUR/USD
+2021-06-25 16:15:54.808668 : waiting for EUR/USD data
+2021-06-25 16:16:02.879287 : all data for EUR/USD has been retrieved

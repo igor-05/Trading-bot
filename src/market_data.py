@@ -1,6 +1,8 @@
 import time
+from datetime import datetime
 
 import numpy as np
+import pandas as pd
 import animation
 
 from settings import get_settings
@@ -52,7 +54,7 @@ def ask_data(ib):
             break
 
 
-def get_data(ib, symbol, barsize=None, nb_of_data_points=0):
+def get_data(ib, symbol, barsize=None, nb_of_data_points=0, data_format="numpy"):
     """Returns market data of a specific symbol and barsize.
 
     Args:
@@ -61,6 +63,8 @@ def get_data(ib, symbol, barsize=None, nb_of_data_points=0):
         barsize ([type]): The barsize (i.e "5 min", "4 hours", "1 hour").
         Defaults to None which means all the barsizes. 
         nb_of_data_points (int, optional): The number of bars to return.
+        format (str, optional): The format. Either "numpy" for (np.array) or 
+        "pandas" for a pandas.DataFrame
         Defaults to 0 which means all the bars.
 
     Returns:
@@ -81,7 +85,6 @@ def get_data(ib, symbol, barsize=None, nb_of_data_points=0):
             bs_data = np.array(bs_data, dtype=np.float64)
             bs_data = filter_arr(bs_data)
             data.append(bs_data)
-
     else:
         reqId = get_reqId_from_info(ib, symbol, barsize)
         if reqId == None:
@@ -89,12 +92,7 @@ def get_data(ib, symbol, barsize=None, nb_of_data_points=0):
         data = ib.market[reqId][-nb_of_data_points:]
         data = np.array(data, dtype=np.float64)
         data = filter_arr(data)
-
     return data
-
-
-def get_dataframe():
-    pass
 
 
 def get_info_from_reqId(ib, reqId):
@@ -111,6 +109,14 @@ def get_reqId_from_info(ib, symbol, barsize):
     return None
 
 
+def np_array_to_pd_df(arr):
+    arr = np.array(arr, dtype='object')
+    for i in range(len(arr)):
+        arr[i][0] = datetime.fromtimestamp(arr[i][0])
+    df = pd.DataFrame(arr, columns=["date", "open", "high", "low", "close"])
+    return df
+
+
 # internal use :
 def add_reqId_info(ib, reqId, symbol, barsize):
     ib.reqId_info[reqId] = (symbol, barsize)
@@ -122,14 +128,6 @@ def filter_arr(arr):
     arr = arr[unique_indices]
     arr = arr[arr[:, 0] != -1]
     return arr
-
-
-def req_ib_data(symbol):
-    pass
-
-
-def req_alphavantage_data(symbol):
-    pass
 
 
 # program :
