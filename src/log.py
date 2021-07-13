@@ -1,19 +1,20 @@
 from datetime import datetime
+import time
 import os
 import os.path
 
-from settings import get_settings
+import settings
 
 """This module will handle everything log related """
 
 # variables
-log_file_path, print_log = get_settings("log_file_path", "print_logs")
+log_file_path, print_log = settings.get_settings("log_file_path", "print_logs")
 
 
 # external
 
 
-def log(msg, print_l=None):
+def log(msg, print_l=None, level="INFO", tws_error=False):
     """
     logs a msg to the log file
 
@@ -26,12 +27,20 @@ def log(msg, print_l=None):
     if print_l == None:
         print_l = print_log
 
-    log_msg = f"{datetime.now()} : {msg}"
+    log_msg = f"{datetime.now()} : {level} : {msg}"
     with open(log_file_path, "a") as f:
         f.write(f"{log_msg}\n")
 
     if print_l:
         print(log_msg)
+
+    time.sleep(0.5)
+
+
+def get_last_log():
+    with open(log_file_path) as f:
+        last_log = f.readlines()[-1]
+    return last_log
 
 
 # internal

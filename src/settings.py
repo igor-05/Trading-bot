@@ -5,7 +5,7 @@ import json
 """This module will handle everything setting related """
 
 # variables
-path = r"settings.json"
+path = r".settings.json"
 default_settings = {
     "log_file_path": "logs.txt",
     "print_logs": True,

@@ -1,499 +1,709 @@
-2021-06-19 15:26:34.128372 : creating log file
-2021-06-19 15:26:56.138760 : couldn't connect to currency rate api
-2021-06-19 15:29:24.540320 : couldn't connect to currency rate api
-2021-06-19 20:45:33.618770 : connecting to the broker
-2021-06-19 20:45:35.678775 : received new order id: 1
-2021-06-19 20:45:35.678858 : connection successful
-2021-06-19 20:45:37.681152 : asking data for EUR/USD
-2021-06-19 20:45:37.682826 : waiting for data
-2021-06-19 20:45:39.480139 : all data has been retrieved
-2021-06-20 14:41:51.939536 : connecting to the broker
-2021-06-20 14:41:53.984546 : received new order id: 1
-2021-06-20 14:41:53.984769 : connection successful
-2021-06-20 14:41:55.987237 : asking data for EUR/USD
-2021-06-20 14:41:55.988554 : waiting for EUR/USD data
-2021-06-20 14:41:58.706835 : all data for EUR/USD has been retrieved
-2021-06-20 14:43:02.414490 : connecting to the broker
-2021-06-20 14:43:04.424637 : connection successful
-2021-06-20 14:43:04.424503 : received new order id: 1
-2021-06-20 14:43:06.426842 : asking data for EUR/USD
-2021-06-20 14:43:06.427883 : waiting for EUR/USD data
-2021-06-20 14:43:07.999336 : all data for EUR/USD has been retrieved
-2021-06-20 14:43:47.236399 : connecting to the broker
-2021-06-20 14:43:49.261601 : connection successful
-2021-06-20 14:43:49.261549 : received new order id: 1
-2021-06-20 14:43:51.264383 : asking data for EUR/USD
-2021-06-20 14:43:51.266346 : waiting for EUR/USD data
-2021-06-20 14:43:53.448376 : all data for EUR/USD has been retrieved
-2021-06-20 14:51:06.412306 : connecting to the broker
-2021-06-20 14:51:08.434334 : received new order id: 1
-2021-06-20 14:51:08.434660 : connection successful
-2021-06-20 14:51:10.440337 : asking data for EUR/USD
-2021-06-20 14:51:10.442753 : waiting for EUR/USD data
-2021-06-20 14:51:12.743467 : all data for EUR/USD has been retrieved
-2021-06-20 15:51:17.297886 : connecting to the broker
-2021-06-20 15:51:19.326105 : connection successful
-2021-06-20 15:51:19.329545 : received new order id: 1
-2021-06-20 15:51:21.331232 : asking data for EUR/USD
-2021-06-20 15:51:21.333784 : waiting for EUR/USD data
-2021-06-20 15:51:40.967139 : all data for EUR/USD has been retrieved
-2021-06-20 15:59:56.306494 : connecting to the broker
-2021-06-20 15:59:58.316630 : received new order id: 1
-2021-06-20 15:59:58.316870 : connection successful
-2021-06-20 16:00:00.320574 : asking data for EUR/USD
-2021-06-20 16:00:00.321968 : waiting for EUR/USD data
-2021-06-20 16:00:19.286238 : all data for EUR/USD has been retrieved
-2021-06-20 16:06:08.596762 : connecting to the broker
-2021-06-20 16:06:10.614955 : connection successful
-2021-06-20 16:06:10.614877 : received new order id: 1
-2021-06-20 16:06:12.615595 : asking data for EUR/USD
-2021-06-20 16:06:12.617047 : waiting for EUR/USD data
-2021-06-20 16:07:38.807832 : all data for EUR/USD has been retrieved
-2021-06-20 16:09:22.244070 : connecting to the broker
-2021-06-20 16:09:24.253898 : connection successful
-2021-06-20 16:09:24.253758 : received new order id: 1
-2021-06-20 16:09:26.256029 : asking data for EUR/USD
-2021-06-20 16:09:26.257202 : waiting for EUR/USD data
-2021-06-20 16:10:28.308448 : all data for EUR/USD has been retrieved
-2021-06-20 16:15:26.534375 : connecting to the broker
-2021-06-20 16:15:28.539299 : received new order id: 1
-2021-06-20 16:15:28.539756 : connection successful
-2021-06-20 16:15:30.541468 : asking data for EUR/USD
-2021-06-20 16:15:30.541939 : waiting for EUR/USD data
-2021-06-20 16:16:33.118390 : all data for EUR/USD has been retrieved
-2021-06-20 16:19:22.781617 : connecting to the broker
-2021-06-20 16:19:24.786498 : connection successful
-2021-06-20 16:19:26.788748 : asking data for EUR/USD
-2021-06-20 16:19:26.788982 : ERROR : 504 Not connected
-2021-06-20 16:19:26.789056 : ERROR : 504 Not connected
-2021-06-20 16:19:26.789113 : ERROR : 504 Not connected
-2021-06-20 16:19:26.789173 : ERROR : 504 Not connected
-2021-06-20 16:19:26.789226 : ERROR : 504 Not connected
-2021-06-20 16:19:26.789279 : ERROR : 504 Not connected
-2021-06-20 16:19:26.789303 : waiting for EUR/USD data
-2021-06-20 20:27:26.203954 : connecting to the broker
-2021-06-20 20:27:28.218264 : received new order id: 1
-2021-06-20 20:27:28.218518 : connection successful
-2021-06-20 20:27:30.220997 : asking data for EUR/USD
-2021-06-20 20:27:30.222398 : waiting for EUR/USD data
-2021-06-20 20:28:32.396372 : all data for EUR/USD has been retrieved
-2021-06-21 17:26:49.320773 : connecting to the broker
-2021-06-21 17:26:51.348007 : connection successful
-2021-06-21 17:26:51.347873 : received new order id: 1
-2021-06-21 17:26:53.349933 : asking data for EUR/USD
-2021-06-21 17:26:53.350983 : waiting for EUR/USD data
-2021-06-21 17:26:56.137918 : all data for EUR/USD has been retrieved
-2021-06-21 17:56:28.971406 : connecting to the broker
-2021-06-21 17:56:30.977816 : connection successful
-2021-06-21 17:56:32.980307 : asking data for EUR/USD
-2021-06-21 17:56:32.980888 : ERROR : 504 Not connected
-2021-06-21 17:56:32.981276 : ERROR : 504 Not connected
-2021-06-21 17:56:32.981617 : ERROR : 504 Not connected
-2021-06-21 17:56:32.981838 : ERROR : 504 Not connected
-2021-06-21 17:56:32.982034 : ERROR : 504 Not connected
-2021-06-21 17:56:32.982244 : ERROR : 504 Not connected
-2021-06-21 17:56:32.982336 : waiting for EUR/USD data
-2021-06-21 17:56:40.428467 : connecting to the broker
-2021-06-21 17:56:42.434419 : connection successful
-2021-06-21 17:56:44.436886 : asking data for EUR/USD
-2021-06-21 17:56:44.437460 : ERROR : 504 Not connected
-2021-06-21 17:56:44.437910 : ERROR : 504 Not connected
-2021-06-21 17:56:44.438206 : ERROR : 504 Not connected
-2021-06-21 17:56:44.438403 : ERROR : 504 Not connected
-2021-06-21 17:56:44.438580 : ERROR : 504 Not connected
-2021-06-21 17:56:44.438738 : ERROR : 504 Not connected
-2021-06-21 17:56:44.438829 : waiting for EUR/USD data
-2021-06-21 17:58:01.319097 : connecting to the broker
-2021-06-21 17:58:03.345050 : received new order id: 1
-2021-06-21 17:58:03.345260 : connection successful
-2021-06-21 17:58:05.348949 : asking data for EUR/USD
-2021-06-21 17:58:05.350536 : waiting for EUR/USD data
-2021-06-21 17:58:08.329498 : all data for EUR/USD has been retrieved
-2021-06-21 17:59:43.046046 : connecting to the broker
-2021-06-21 17:59:45.051839 : connection successful
-2021-06-21 17:59:47.054386 : asking data for EUR/USD
-2021-06-21 17:59:47.054933 : ERROR : 504 Not connected
-2021-06-21 17:59:47.055320 : ERROR : 504 Not connected
-2021-06-21 17:59:47.055612 : ERROR : 504 Not connected
-2021-06-21 17:59:47.055864 : ERROR : 504 Not connected
-2021-06-21 17:59:47.056055 : ERROR : 504 Not connected
-2021-06-21 17:59:47.056213 : ERROR : 504 Not connected
-2021-06-21 17:59:47.056285 : waiting for EUR/USD data
-2021-06-21 18:00:33.388735 : connecting to the broker
-2021-06-21 18:00:35.394366 : connection successful
-2021-06-21 18:00:37.397023 : asking data for EUR/USD
-2021-06-21 18:00:37.397618 : ERROR : 504 Not connected
-2021-06-21 18:00:37.398075 : ERROR : 504 Not connected
-2021-06-21 18:00:37.398386 : ERROR : 504 Not connected
-2021-06-21 18:00:37.398577 : ERROR : 504 Not connected
-2021-06-21 18:00:37.398677 : waiting for EUR/USD data
-2021-06-22 18:44:42.017822 : connecting to the broker
-2021-06-22 18:44:44.046210 : connection successful
-2021-06-22 18:44:44.046122 : received new order id: 1
-2021-06-22 18:44:46.048500 : asking data for EUR/USD
-2021-06-22 18:44:46.049425 : waiting for EUR/USD data
-2021-06-22 18:44:53.482617 : all data for EUR/USD has been retrieved
-2021-06-22 18:46:45.151612 : connecting to the broker
-2021-06-22 18:46:47.163685 : connection successful
-2021-06-22 18:46:49.166617 : asking data for EUR/USD
-2021-06-22 18:46:49.168881 : ERROR : 504 Not connected
-2021-06-22 18:46:49.169395 : ERROR : 504 Not connected
-2021-06-22 18:46:49.169910 : ERROR : 504 Not connected
-2021-06-22 18:46:49.170509 : ERROR : 504 Not connected
-2021-06-22 18:46:49.170700 : waiting for EUR/USD data
-2021-06-22 18:47:54.589972 : connecting to the broker
-2021-06-22 18:47:56.621498 : connection successful
-2021-06-22 18:47:56.622885 : received new order id: 1
-2021-06-22 18:47:58.628503 : asking data for EUR/USD
-2021-06-22 18:47:58.630639 : waiting for EUR/USD data
-2021-06-22 18:48:02.694561 : all data for EUR/USD has been retrieved
-2021-06-22 18:49:46.636898 : connecting to the broker
-2021-06-22 18:49:48.646715 : connection successful
-2021-06-22 18:49:48.647992 : received new order id: 1
-2021-06-22 18:49:50.649444 : asking data for EUR/USD
-2021-06-22 18:49:50.652005 : waiting for EUR/USD data
-2021-06-22 18:49:58.434566 : all data for EUR/USD has been retrieved
-2021-06-22 18:50:13.722275 : connecting to the broker
-2021-06-22 18:50:15.734177 : received new order id: 1
-2021-06-22 18:50:15.734395 : connection successful
-2021-06-22 18:50:17.741553 : asking data for EUR/USD
-2021-06-22 18:50:17.744301 : waiting for EUR/USD data
-2021-06-22 18:50:19.892884 : all data for EUR/USD has been retrieved
-2021-06-22 21:17:40.640950 : connecting to the broker
-2021-06-22 21:17:42.646721 : connection successful
-2021-06-22 21:17:42.646651 : received new order id: 1
-2021-06-22 21:17:55.836264 : connecting to the broker
-2021-06-22 21:17:57.842259 : received new order id: 1
-2021-06-22 21:17:57.842502 : connection successful
-2021-06-22 21:17:59.845350 : asking data for EUR/USD
-2021-06-22 21:17:59.846480 : waiting for EUR/USD data
-2021-06-22 21:19:43.715105 : ERROR : 200 No security definition has been found for the request
-2021-06-22 21:19:43.751752 : ERROR : 200 No security definition has been found for the request
-2021-06-22 21:19:43.782800 : ERROR : 200 No security definition has been found for the request
-2021-06-22 21:19:43.818862 : ERROR : 200 No security definition has been found for the request
-2021-06-22 21:21:27.921412 : connecting to the broker
-2021-06-22 21:21:29.926744 : connection successful
-2021-06-22 21:21:31.929140 : asking data for EUR/USD
-2021-06-22 21:21:31.929577 : ERROR : 504 Not connected
-2021-06-22 21:21:31.929770 : ERROR : 504 Not connected
-2021-06-22 21:21:31.929920 : ERROR : 504 Not connected
-2021-06-22 21:21:31.930058 : ERROR : 504 Not connected
-2021-06-22 21:21:31.930150 : waiting for EUR/USD data
-2021-06-22 21:30:32.563528 : connecting to the broker
-2021-06-22 21:30:34.604539 : received new order id: 1
-2021-06-22 21:30:34.604803 : connection successful
-2021-06-22 21:30:36.607340 : asking data for EUR/USD
-2021-06-22 21:30:36.608573 : waiting for EUR/USD data
-2021-06-22 21:30:44.545562 : all data for EUR/USD has been retrieved
-2021-06-22 21:31:43.008537 : connecting to the broker
-2021-06-22 21:31:45.022143 : connection successful
-2021-06-22 21:31:45.021992 : received new order id: 1
-2021-06-22 21:31:47.023606 : asking data for EUR/USD
-2021-06-22 21:31:47.026032 : waiting for EUR/USD data
-2021-06-22 21:31:55.471632 : all data for EUR/USD has been retrieved
-2021-06-22 21:42:21.600978 : connecting to the broker
-2021-06-22 21:42:23.613435 : connection successful
-2021-06-22 21:42:23.613348 : received new order id: 1
-2021-06-22 21:42:25.622150 : asking data for EUR/USD
-2021-06-22 21:42:25.625489 : waiting for EUR/USD data
-2021-06-22 21:42:34.926873 : all data for EUR/USD has been retrieved
-2021-06-22 21:43:42.221594 : connecting to the broker
-2021-06-22 21:43:44.236961 : received new order id: 1
-2021-06-22 21:43:44.237082 : connection successful
-2021-06-22 21:43:46.242364 : asking data for EUR/USD
-2021-06-22 21:43:46.243937 : waiting for EUR/USD data
-2021-06-22 21:43:55.239245 : all data for EUR/USD has been retrieved
-2021-06-23 13:08:44.805893 : connecting to the broker
-2021-06-23 13:08:46.839006 : received new order id: 1
-2021-06-23 13:08:46.839113 : connection successful
-2021-06-23 13:08:48.844573 : asking data for EUR/USD
-2021-06-23 13:08:48.847114 : waiting for EUR/USD data
-2021-06-23 13:08:56.947070 : all data for EUR/USD has been retrieved
-2021-06-23 13:09:35.891679 : connecting to the broker
-2021-06-23 13:09:37.903537 : received new order id: 1
-2021-06-23 13:09:37.903666 : connection successful
-2021-06-23 13:09:39.908621 : asking data for EUR/USD
-2021-06-23 13:09:39.910954 : waiting for EUR/USD data
-2021-06-23 13:09:42.218252 : all data for EUR/USD has been retrieved
-2021-06-23 13:10:53.457661 : connecting to the broker
-2021-06-23 13:10:55.467522 : received new order id: 1
-2021-06-23 13:10:55.467244 : connection successful
-2021-06-23 13:10:57.471786 : asking data for EUR/USD
-2021-06-23 13:10:57.473980 : waiting for EUR/USD data
-2021-06-23 13:11:05.851608 : all data for EUR/USD has been retrieved
-2021-06-23 13:15:04.502938 : connecting to the broker
-2021-06-23 13:15:06.514296 : received new order id: 1
-2021-06-23 13:15:06.514532 : connection successful
-2021-06-23 13:15:08.521433 : asking data for EUR/USD
-2021-06-23 13:15:08.523556 : waiting for EUR/USD data
-2021-06-23 13:15:16.932084 : all data for EUR/USD has been retrieved
-2021-06-24 18:36:10.987957 : connecting to the broker
-2021-06-24 18:36:13.015704 : received new order id: 1
-2021-06-24 18:36:13.015775 : connection successful
-2021-06-24 18:36:15.019722 : asking data for EUR/USD
-2021-06-24 18:36:15.021036 : waiting for EUR/USD data
-2021-06-24 18:36:22.320876 : all data for EUR/USD has been retrieved
-2021-06-24 18:36:57.343189 : connecting to the broker
-2021-06-24 18:36:59.348862 : received new order id: 1
-2021-06-24 18:36:59.349253 : connection successful
-2021-06-24 18:37:01.351673 : asking data for EUR/USD
-2021-06-24 18:37:01.352897 : waiting for EUR/USD data
-2021-06-24 18:37:02.915917 : all data for EUR/USD has been retrieved
-2021-06-24 18:37:14.632337 : connecting to the broker
-2021-06-24 18:37:16.637242 : received new order id: 1
-2021-06-24 18:37:16.637476 : connection successful
-2021-06-24 18:37:18.639994 : asking data for EUR/USD
-2021-06-24 18:37:18.640542 : waiting for EUR/USD data
-2021-06-24 18:37:25.428932 : all data for EUR/USD has been retrieved
-2021-06-24 18:37:47.055342 : connecting to the broker
-2021-06-24 18:37:49.061116 : connection successful
-2021-06-24 18:37:49.060987 : received new order id: 1
-2021-06-24 18:37:51.064523 : asking data for EUR/USD
-2021-06-24 18:37:51.065471 : waiting for EUR/USD data
-2021-06-24 18:37:52.866208 : all data for EUR/USD has been retrieved
-2021-06-24 18:42:38.350860 : connecting to the broker
-2021-06-24 18:42:40.356814 : connection successful
-2021-06-24 18:42:40.356672 : received new order id: 1
-2021-06-24 18:42:42.361070 : asking data for EUR/USD
-2021-06-24 18:42:42.362265 : waiting for EUR/USD data
-2021-06-24 18:42:49.609642 : all data for EUR/USD has been retrieved
-2021-06-24 18:43:56.893936 : connecting to the broker
-2021-06-24 18:43:58.904002 : connection successful
-2021-06-24 18:44:00.905613 : asking data for EUR/USD
-2021-06-24 18:44:00.907919 : ERROR : 504 Not connected
-2021-06-24 18:44:00.908576 : ERROR : 504 Not connected
-2021-06-24 18:44:00.908800 : ERROR : 504 Not connected
-2021-06-24 18:44:00.908947 : ERROR : 504 Not connected
-2021-06-24 18:44:00.908986 : waiting for EUR/USD data
-2021-06-24 18:44:08.126200 : connecting to the broker
-2021-06-24 18:44:10.137039 : connection successful
-2021-06-24 18:44:12.140697 : asking data for EUR/USD
-2021-06-24 18:44:12.143053 : ERROR : 504 Not connected
-2021-06-24 18:44:12.143701 : ERROR : 504 Not connected
-2021-06-24 18:44:12.144322 : ERROR : 504 Not connected
-2021-06-24 18:44:12.144903 : ERROR : 504 Not connected
-2021-06-24 18:44:12.145048 : waiting for EUR/USD data
-2021-06-24 18:44:56.634938 : connecting to the broker
-2021-06-24 18:44:58.667400 : received new order id: 1
-2021-06-24 18:44:58.666421 : connection successful
-2021-06-24 18:45:00.669740 : asking data for EUR/USD
-2021-06-24 18:45:00.672029 : waiting for EUR/USD data
-2021-06-24 18:45:03.238290 : all data for EUR/USD has been retrieved
-2021-06-24 18:46:12.848460 : connecting to the broker
-2021-06-24 18:46:14.858253 : connection successful
-2021-06-24 18:46:14.859288 : received new order id: 1
-2021-06-24 18:46:16.861083 : asking data for EUR/USD
-2021-06-24 18:46:16.863231 : waiting for EUR/USD data
-2021-06-24 18:46:25.031737 : all data for EUR/USD has been retrieved
-2021-06-24 18:47:37.325026 : connecting to the broker
-2021-06-24 18:47:39.335608 : connection successful
-2021-06-24 18:47:39.336023 : received new order id: 1
-2021-06-24 18:47:41.336543 : asking data for EUR/USD
-2021-06-24 18:47:41.337237 : waiting for EUR/USD data
-2021-06-24 18:47:49.334065 : all data for EUR/USD has been retrieved
-2021-06-24 18:50:12.134321 : connecting to the broker
-2021-06-24 18:50:14.147011 : connection successful
-2021-06-24 18:50:14.147902 : received new order id: 1
-2021-06-24 18:50:16.150705 : asking data for EUR/USD
-2021-06-24 18:50:16.152543 : waiting for EUR/USD data
-2021-06-24 18:50:23.934429 : all data for EUR/USD has been retrieved
-2021-06-25 12:02:12.698854 : connecting to the broker
-2021-06-25 12:02:14.733392 : received new order id: 1
-2021-06-25 12:02:14.733618 : connection successful
-2021-06-25 12:02:16.736729 : asking data for EUR/USD
-2021-06-25 12:02:16.737693 : waiting for EUR/USD data
-2021-06-25 12:02:24.563055 : all data for EUR/USD has been retrieved
-2021-06-25 12:03:22.482509 : connecting to the broker
-2021-06-25 12:03:24.494806 : connection successful
-2021-06-25 12:03:24.496359 : received new order id: 1
-2021-06-25 12:03:26.497061 : asking data for EUR/USD
-2021-06-25 12:03:26.499050 : waiting for EUR/USD data
-2021-06-25 12:03:35.691146 : all data for EUR/USD has been retrieved
-2021-06-25 12:06:52.744784 : connecting to the broker
-2021-06-25 12:06:54.757425 : connection successful
-2021-06-25 12:06:54.758674 : received new order id: 1
-2021-06-25 12:06:56.760097 : asking data for EUR/USD
-2021-06-25 12:06:56.761071 : waiting for EUR/USD data
-2021-06-25 12:06:57.816988 : all data for EUR/USD has been retrieved
-2021-06-25 12:07:22.304091 : connecting to the broker
-2021-06-25 12:07:24.317667 : connection successful
-2021-06-25 12:07:24.318550 : received new order id: 1
-2021-06-25 12:07:26.321348 : asking data for EUR/USD
-2021-06-25 12:07:26.324747 : waiting for EUR/USD data
-2021-06-25 12:07:27.517735 : all data for EUR/USD has been retrieved
-2021-06-25 12:08:34.023020 : connecting to the broker
-2021-06-25 12:08:36.037416 : connection successful
-2021-06-25 12:08:36.038421 : received new order id: 1
-2021-06-25 12:08:38.040913 : asking data for EUR/USD
-2021-06-25 12:08:38.041950 : waiting for EUR/USD data
-2021-06-25 12:08:39.350950 : all data for EUR/USD has been retrieved
-2021-06-25 13:05:05.651861 : connecting to the broker
-2021-06-25 13:05:07.664782 : connection successful
-2021-06-25 13:05:07.666303 : received new order id: 1
-2021-06-25 13:05:09.667692 : asking data for EUR/USD
-2021-06-25 13:05:09.669579 : waiting for EUR/USD data
-2021-06-25 13:05:11.059510 : all data for EUR/USD has been retrieved
-2021-06-25 13:07:25.244707 : connecting to the broker
-2021-06-25 13:07:27.258192 : received new order id: 1
-2021-06-25 13:07:27.258609 : connection successful
-2021-06-25 13:07:29.261439 : asking data for EUR/USD
-2021-06-25 13:07:29.263760 : waiting for EUR/USD data
-2021-06-25 13:07:30.588984 : all data for EUR/USD has been retrieved
-2021-06-25 13:08:42.756132 : connecting to the broker
-2021-06-25 13:08:44.769892 : connection successful
-2021-06-25 13:08:44.770927 : received new order id: 1
-2021-06-25 13:08:46.773630 : asking data for EUR/USD
-2021-06-25 13:08:46.775517 : waiting for EUR/USD data
-2021-06-25 13:08:48.191346 : all data for EUR/USD has been retrieved
-2021-06-25 13:13:41.423893 : connecting to the broker
-2021-06-25 13:13:43.437723 : connection successful
-2021-06-25 13:13:43.438713 : received new order id: 1
-2021-06-25 13:13:45.440050 : asking data for EUR/USD
-2021-06-25 13:13:45.442239 : waiting for EUR/USD data
-2021-06-25 13:13:46.980238 : all data for EUR/USD has been retrieved
-2021-06-25 13:14:13.646687 : connecting to the broker
-2021-06-25 13:14:15.661971 : received new order id: 1
-2021-06-25 13:14:15.662211 : connection successful
-2021-06-25 13:14:17.665459 : asking data for EUR/USD
-2021-06-25 13:14:17.667917 : waiting for EUR/USD data
-2021-06-25 13:14:19.055135 : all data for EUR/USD has been retrieved
-2021-06-25 13:14:41.808039 : connecting to the broker
-2021-06-25 13:14:43.821907 : connection successful
-2021-06-25 13:14:43.823087 : received new order id: 1
-2021-06-25 13:14:45.825746 : asking data for EUR/USD
-2021-06-25 13:14:45.827773 : waiting for EUR/USD data
-2021-06-25 13:14:47.331272 : all data for EUR/USD has been retrieved
-2021-06-25 13:15:27.559106 : connecting to the broker
-2021-06-25 13:15:29.566321 : received new order id: 1
-2021-06-25 13:15:29.567132 : connection successful
-2021-06-25 13:15:31.569587 : asking data for EUR/USD
-2021-06-25 13:15:31.570595 : waiting for EUR/USD data
-2021-06-25 13:15:32.529784 : all data for EUR/USD has been retrieved
-2021-06-25 13:17:18.922672 : connecting to the broker
-2021-06-25 13:17:20.928201 : received new order id: 1
-2021-06-25 13:17:20.928616 : connection successful
-2021-06-25 13:17:22.931991 : asking data for EUR/USD
-2021-06-25 13:17:22.932836 : waiting for EUR/USD data
-2021-06-25 13:17:23.654823 : all data for EUR/USD has been retrieved
-2021-06-25 14:31:03.892635 : connecting to the broker
-2021-06-25 14:31:05.904902 : connection successful
-2021-06-25 14:31:07.908859 : asking data for EUR/USD
-2021-06-25 14:31:07.910849 : ERROR : 504 Not connected
-2021-06-25 14:31:07.911448 : ERROR : 504 Not connected
-2021-06-25 14:31:07.912073 : ERROR : 504 Not connected
-2021-06-25 14:31:07.912551 : ERROR : 504 Not connected
-2021-06-25 14:31:07.912717 : waiting for EUR/USD data
-2021-06-25 14:32:13.232690 : connecting to the broker
-2021-06-25 14:32:15.270183 : connection successful
-2021-06-25 14:32:15.271478 : received new order id: 1
-2021-06-25 14:32:17.274254 : asking data for EUR/USD
-2021-06-25 14:32:17.276007 : waiting for EUR/USD data
-2021-06-25 14:32:18.484458 : all data for EUR/USD has been retrieved
-2021-06-25 14:33:04.870611 : connecting to the broker
-2021-06-25 14:33:06.882406 : received new order id: 1
-2021-06-25 14:33:06.882668 : connection successful
-2021-06-25 14:33:08.883995 : asking data for EUR/USD
-2021-06-25 14:33:08.885976 : waiting for EUR/USD data
-2021-06-25 14:33:10.037820 : all data for EUR/USD has been retrieved
-2021-06-25 14:33:46.030820 : connecting to the broker
-2021-06-25 14:33:48.040970 : received new order id: 1
-2021-06-25 14:33:48.041179 : connection successful
-2021-06-25 14:33:50.045414 : asking data for EUR/USD
-2021-06-25 14:33:50.047539 : waiting for EUR/USD data
-2021-06-25 14:33:51.050200 : all data for EUR/USD has been retrieved
-2021-06-25 14:34:03.584829 : connecting to the broker
-2021-06-25 14:34:05.593424 : connection successful
-2021-06-25 14:34:05.594594 : received new order id: 1
-2021-06-25 14:34:07.595887 : asking data for EUR/USD
-2021-06-25 14:34:07.596865 : waiting for EUR/USD data
-2021-06-25 14:34:08.748178 : all data for EUR/USD has been retrieved
-2021-06-25 14:57:25.635696 : connecting to the broker
-2021-06-25 14:57:27.645215 : connection successful
-2021-06-25 14:57:27.646261 : received new order id: 1
-2021-06-25 14:57:29.649391 : asking data for EUR/USD
-2021-06-25 14:57:29.652115 : waiting for EUR/USD data
-2021-06-25 14:57:30.681256 : all data for EUR/USD has been retrieved
-2021-06-25 14:59:02.441557 : connecting to the broker
-2021-06-25 14:59:04.452746 : received new order id: 1
-2021-06-25 14:59:04.451888 : connection successful
-2021-06-25 14:59:06.458898 : asking data for EUR/USD
-2021-06-25 14:59:06.461417 : waiting for EUR/USD data
-2021-06-25 14:59:07.399378 : all data for EUR/USD has been retrieved
-2021-06-25 14:59:30.985707 : connecting to the broker
-2021-06-25 14:59:32.997894 : connection successful
-2021-06-25 14:59:32.999221 : received new order id: 1
-2021-06-25 14:59:35.002037 : asking data for EUR/USD
-2021-06-25 14:59:35.004111 : waiting for EUR/USD data
-2021-06-25 14:59:36.140827 : all data for EUR/USD has been retrieved
-2021-06-25 15:01:46.509009 : connecting to the broker
-2021-06-25 15:01:48.520375 : connection successful
-2021-06-25 15:01:48.521306 : received new order id: 1
-2021-06-25 15:01:50.524061 : asking data for EUR/USD
-2021-06-25 15:01:50.526435 : waiting for EUR/USD data
-2021-06-25 15:01:51.540747 : all data for EUR/USD has been retrieved
-2021-06-25 15:02:19.876949 : connecting to the broker
-2021-06-25 15:02:21.889348 : received new order id: 1
-2021-06-25 15:02:21.888422 : connection successful
-2021-06-25 15:02:23.895330 : asking data for EUR/USD
-2021-06-25 15:02:23.897260 : waiting for EUR/USD data
-2021-06-25 15:02:24.870874 : all data for EUR/USD has been retrieved
-2021-06-25 15:42:17.811622 : connecting to the broker
-2021-06-25 15:42:19.821150 : connection successful
-2021-06-25 15:42:19.822485 : received new order id: 1
-2021-06-25 15:42:21.824434 : asking data for EUR/USD
-2021-06-25 15:42:21.826471 : waiting for EUR/USD data
-2021-06-25 15:42:22.823258 : all data for EUR/USD has been retrieved
-2021-06-25 15:43:44.917311 : connecting to the broker
-2021-06-25 15:43:46.928611 : connection successful
-2021-06-25 15:43:46.929737 : received new order id: 1
-2021-06-25 15:43:48.932091 : asking data for EUR/USD
-2021-06-25 15:43:48.935340 : waiting for EUR/USD data
-2021-06-25 15:43:50.097527 : all data for EUR/USD has been retrieved
-2021-06-25 15:46:44.105528 : connecting to the broker
-2021-06-25 15:46:46.121773 : received new order id: 1
-2021-06-25 15:46:46.121207 : connection successful
-2021-06-25 15:46:48.128319 : asking data for EUR/USD
-2021-06-25 15:46:48.130454 : waiting for EUR/USD data
-2021-06-25 15:46:49.218710 : all data for EUR/USD has been retrieved
-2021-06-25 15:54:29.955179 : connecting to the broker
-2021-06-25 15:54:31.960064 : received new order id: 1
-2021-06-25 15:54:31.960287 : connection successful
-2021-06-25 15:54:33.963388 : asking data for EUR/USD
-2021-06-25 15:54:33.964883 : waiting for EUR/USD data
-2021-06-25 15:54:35.703616 : all data for EUR/USD has been retrieved
-2021-06-25 15:54:58.318816 : connecting to the broker
-2021-06-25 15:55:00.326089 : received new order id: 1
-2021-06-25 15:55:00.326334 : connection successful
-2021-06-25 15:55:02.329390 : asking data for EUR/USD
-2021-06-25 15:55:02.330570 : waiting for EUR/USD data
-2021-06-25 15:55:04.083147 : all data for EUR/USD has been retrieved
-2021-06-25 15:59:14.793464 : connecting to the broker
-2021-06-25 15:59:16.798793 : received new order id: 1
-2021-06-25 15:59:16.799007 : connection successful
-2021-06-25 15:59:18.802565 : asking data for EUR/USD
-2021-06-25 15:59:18.803788 : waiting for EUR/USD data
-2021-06-25 15:59:20.795397 : all data for EUR/USD has been retrieved
-2021-06-25 15:59:49.944298 : connecting to the broker
-2021-06-25 15:59:51.948282 : received new order id: 1
-2021-06-25 15:59:51.948540 : connection successful
-2021-06-25 15:59:53.952890 : asking data for EUR/USD
-2021-06-25 15:59:53.953938 : waiting for EUR/USD data
-2021-06-25 15:59:56.122445 : all data for EUR/USD has been retrieved
-2021-06-25 16:08:26.046287 : connecting to the broker
-2021-06-25 16:08:28.052205 : received new order id: 1
-2021-06-25 16:08:28.052327 : connection successful
-2021-06-25 16:08:30.055888 : asking data for EUR/USD
-2021-06-25 16:08:30.056918 : waiting for EUR/USD data
-2021-06-25 16:08:31.919220 : all data for EUR/USD has been retrieved
-2021-06-25 16:13:12.155649 : connecting to the broker
-2021-06-25 16:13:14.159904 : received new order id: 1
-2021-06-25 16:13:14.160144 : connection successful
-2021-06-25 16:13:16.162659 : asking data for EUR/USD
-2021-06-25 16:13:16.163726 : waiting for EUR/USD data
-2021-06-25 16:13:18.067614 : all data for EUR/USD has been retrieved
-2021-06-25 16:15:50.800115 : connecting to the broker
-2021-06-25 16:15:52.805847 : received new order id: 1
-2021-06-25 16:15:52.806240 : connection successful
-2021-06-25 16:15:54.807765 : asking data for EUR/USD
-2021-06-25 16:15:54.808668 : waiting for EUR/USD data
-2021-06-25 16:16:02.879287 : all data for EUR/USD has been retrieved
+2021-07-04 13:13:49.767789 : creating log file
+2021-07-04 13:13:49.779913 : INFO : connecting to the broker
+2021-07-04 13:13:51.811705 : INFO : received new order id: 1
+2021-07-04 13:13:51.812140 : INFO : connection successful
+2021-07-04 13:13:53.821002 : INFO : asking data for EUR/USD
+2021-07-04 13:13:53.823955 : INFO : waiting for EUR/USD data
+2021-07-04 13:14:57.543497 : INFO : all data for EUR/USD has been retrieved
+2021-07-08 13:38:17.019727 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-08 13:38:18.439921 : INFO : connecting to the broker
+2021-07-08 13:38:20.441977 : INFO : connection successful
+2021-07-08 13:38:22.444386 : INFO : subscribing to account updates
+2021-07-08 13:38:22.446826 : INFO : connecting to the broker
+2021-07-08 13:38:24.449956 : INFO : connection successful
+2021-07-08 13:38:26.452418 : INFO : subscribing to account updates
+2021-07-08 13:44:09.681170 : INFO : connecting to the broker
+2021-07-08 13:44:11.684611 : INFO : connection successful
+2021-07-08 13:44:13.687115 : INFO : subscribing to account updates
+2021-07-08 13:44:13.689550 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:11:53.225010 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:12:01.017647 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:12:04.427483 : INFO : connecting to the broker
+2021-07-09 13:12:06.435113 : INFO : connection successful
+2021-07-09 13:12:08.436438 : INFO : subscribing to account updates
+2021-07-09 13:12:22.985505 : INFO : connecting to the broker
+2021-07-09 13:12:24.990244 : INFO : connection successful
+2021-07-09 13:12:26.992934 : INFO : subscribing to account updates
+2021-07-09 13:18:28.457271 : INFO : connecting to the broker
+2021-07-09 13:18:30.460626 : INFO : connection successful
+2021-07-09 13:18:32.463034 : INFO : subscribing to account updates
+2021-07-09 13:18:37.121701 : INFO : connecting to the broker
+2021-07-09 13:18:39.124724 : INFO : connection successful
+2021-07-09 13:18:41.127127 : INFO : subscribing to account updates
+2021-07-09 13:19:26.301455 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:19:28.837583 : INFO : connecting to the broker
+2021-07-09 13:19:30.840991 : INFO : connection successful
+2021-07-09 13:19:32.843423 : INFO : subscribing to account updates
+2021-07-09 13:20:22.486350 : INFO : connecting to the broker
+2021-07-09 13:20:24.489851 : INFO : connection successful
+2021-07-09 13:20:26.492256 : INFO : subscribing to account updates
+2021-07-09 13:21:42.106941 : INFO : connecting to the broker
+2021-07-09 13:21:42.107526 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:21:44.110406 : INFO : connection successful
+2021-07-09 13:21:46.111327 : INFO : subscribing to account updates
+2021-07-09 13:21:46.111894 : ERROR : 504 Not connected
+2021-07-09 13:23:24.565447 : INFO : connecting to the broker
+2021-07-09 13:23:24.609974 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:23:26.653184 : INFO : connection successful
+2021-07-09 13:23:28.695715 : INFO : subscribing to account updates
+2021-07-09 13:23:28.736331 : ERROR : 504 Not connected
+2021-07-09 13:23:37.152079 : INFO : connecting to the broker
+2021-07-09 13:23:37.192609 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:23:39.235602 : INFO : connection successful
+2021-07-09 13:23:41.278174 : INFO : subscribing to account updates
+2021-07-09 13:23:41.318720 : ERROR : 504 Not connected
+2021-07-09 13:23:41.360196 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:27:53.496010 : INFO : connecting to the broker
+2021-07-09 13:27:53.536811 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:27:55.579895 : INFO : connection successful
+2021-07-09 13:27:57.622551 : INFO : subscribing to account updates
+2021-07-09 13:27:57.663038 : ERROR : 504 Not connected
+2021-07-09 13:28:00.190457 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:28:01.598525 : INFO : connecting to the broker
+2021-07-09 13:28:01.639170 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:28:03.682109 : INFO : connection successful
+2021-07-09 13:28:05.724749 : INFO : subscribing to account updates
+2021-07-09 13:28:05.765858 : ERROR : 504 Not connected
+2021-07-09 13:28:06.359851 : INFO : connecting to the broker
+2021-07-09 13:28:06.400339 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:28:08.443130 : INFO : connection successful
+2021-07-09 13:28:10.485753 : INFO : subscribing to account updates
+2021-07-09 13:28:10.526244 : ERROR : 504 Not connected
+2021-07-09 13:32:36.170240 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:32:38.768865 : INFO : connecting to the broker
+2021-07-09 13:32:38.810039 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:32:40.852856 : INFO : connection successful
+2021-07-09 13:32:40.853296 : INFO : connecting to the broker
+2021-07-09 13:32:40.893828 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:32:42.662985 : INFO : connecting to the broker
+2021-07-09 13:32:42.703559 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:32:42.895497 : INFO : subscribing to account updates
+2021-07-09 13:32:42.935965 : ERROR : 504 Not connected
+2021-07-09 13:32:42.936476 : INFO : connection successful
+2021-07-09 13:32:43.505986 : INFO : connecting to the broker
+2021-07-09 13:32:43.546578 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:32:44.616087 : INFO : connecting to the broker
+2021-07-09 13:32:44.656579 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:32:44.744472 : INFO : connection successful
+2021-07-09 13:32:44.978687 : INFO : subscribing to account updates
+2021-07-09 13:32:45.019127 : ERROR : 504 Not connected
+2021-07-09 13:32:45.450266 : INFO : connecting to the broker
+2021-07-09 13:32:45.490763 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:32:45.588527 : INFO : connection successful
+2021-07-09 13:32:46.699237 : INFO : connection successful
+2021-07-09 13:32:46.786728 : INFO : subscribing to account updates
+2021-07-09 13:32:46.827094 : ERROR : 504 Not connected
+2021-07-09 13:32:47.532671 : INFO : connection successful
+2021-07-09 13:32:47.630796 : INFO : subscribing to account updates
+2021-07-09 13:32:47.671180 : ERROR : 504 Not connected
+2021-07-09 13:32:48.741611 : INFO : subscribing to account updates
+2021-07-09 13:32:48.782548 : ERROR : 504 Not connected
+2021-07-09 13:32:49.575079 : INFO : subscribing to account updates
+2021-07-09 13:32:49.615813 : ERROR : 504 Not connected
+2021-07-09 13:32:53.373063 : INFO : connecting to the broker
+2021-07-09 13:32:53.413600 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:32:55.456261 : INFO : connection successful
+2021-07-09 13:32:57.498690 : INFO : subscribing to account updates
+2021-07-09 13:32:57.539225 : ERROR : 504 Not connected
+2021-07-09 13:33:10.203913 : INFO : connecting to the broker
+2021-07-09 13:33:10.704887 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:33:12.025503 : INFO : connecting to the broker
+2021-07-09 13:33:12.527036 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:33:13.208277 : INFO : connection successful
+2021-07-09 13:33:15.028676 : INFO : connection successful
+2021-07-09 13:33:15.711131 : INFO : subscribing to account updates
+2021-07-09 13:33:16.212468 : ERROR : 504 Not connected
+2021-07-09 13:33:17.531671 : INFO : subscribing to account updates
+2021-07-09 13:33:18.032667 : ERROR : 504 Not connected
+2021-07-09 13:34:51.348141 : INFO : connecting to the broker
+2021-07-09 13:34:51.849747 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-09 13:34:54.352834 : INFO : connection successful
+2021-07-09 13:34:56.858588 : INFO : subscribing to account updates
+2021-07-09 13:34:57.359586 : ERROR : 504 Not connected
+2021-07-09 13:35:02.077577 : INFO : can't start the bot because the application isn't connected to the broker
+2021-07-09 13:35:51.414254 : INFO : connecting to the broker
+2021-07-09 13:35:53.956741 : INFO : received new order id: 1
+2021-07-09 13:35:53.956805 : INFO : connection successful
+2021-07-09 13:35:54.458018 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-09 13:35:54.959224 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-09 13:35:55.460246 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-09 13:35:55.961304 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-09 13:35:56.459667 : INFO : subscribing to account updates
+2021-07-09 13:35:56.462378 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-09 13:35:56.963391 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-09 13:35:57.469018 : INFO : updated account portfolio data
+2021-07-09 13:38:52.371127 : INFO : connecting to the broker
+2021-07-09 13:38:54.881159 : INFO : connection successful
+2021-07-09 13:38:54.881041 : INFO : received new order id: 1
+2021-07-09 13:38:55.382521 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-09 13:38:55.883623 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-09 13:38:56.384660 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-09 13:38:56.885538 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-09 13:38:57.384211 : INFO : subscribing to account updates
+2021-07-09 13:38:57.386478 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-09 13:38:57.888401 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-09 13:38:58.394144 : INFO : updated account portfolio data
+2021-07-09 13:39:01.842105 : INFO : disconnecting from tws
+2021-07-11 14:17:08.508655 : INFO : connecting to the broker
+2021-07-11 14:17:09.009601 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-11 14:17:11.513322 : INFO : connection successful
+2021-07-11 14:17:14.016284 : INFO : subscribing to account updates
+2021-07-11 14:17:14.517528 : ERROR : 504 Not connected
+2021-07-11 14:17:15.018531 : INFO : asking data for EUR/USD
+2021-07-11 14:19:10.613420 : INFO : connecting to the broker
+2021-07-11 14:19:13.142755 : INFO : connection successful
+2021-07-11 14:19:13.143777 : INFO : received new order id: 1
+2021-07-11 14:19:13.646360 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-11 14:19:14.147896 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-11 14:19:14.649501 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-11 14:19:15.151136 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-11 14:19:15.647050 : INFO : subscribing to account updates
+2021-07-11 14:19:15.652764 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-11 14:19:16.148688 : INFO : asking data for EUR/USD
+2021-07-11 14:19:16.154220 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-11 14:19:41.907866 : INFO : connecting to the broker
+2021-07-11 14:19:44.422803 : INFO : connection successful
+2021-07-11 14:19:44.423206 : INFO : received new order id: 1
+2021-07-11 14:19:44.925888 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-11 14:19:45.427341 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-11 14:19:45.928908 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-11 14:19:46.430483 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-11 14:19:46.928193 : INFO : subscribing to account updates
+2021-07-11 14:19:46.931974 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-11 14:19:47.429846 : INFO : asking data for EUR/USD
+2021-07-11 14:19:47.438031 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-11 14:19:47.930943 : INFO : couldn't find any reqId for 1 min EUR/USD
+2021-07-11 14:19:47.958152 : INFO : updated account portfolio data
+2021-07-11 14:19:48.432591 : INFO : couldn't find any reqId for 5 mins EUR/USD
+2021-07-11 14:19:48.466534 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:48.934093 : INFO : couldn't find any reqId for 15 mins EUR/USD
+2021-07-11 14:19:48.967653 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:49.435415 : INFO : couldn't find any reqId for 1 hour EUR/USD
+2021-07-11 14:19:49.468842 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:49.936671 : INFO : couldn't find any reqId for 4 hours EUR/USD
+2021-07-11 14:19:49.970038 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:50.437426 : INFO : couldn't find any reqId for 1 day EUR/USD
+2021-07-11 14:19:50.472014 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:50.938770 : INFO : waiting for EUR/USD data
+2021-07-11 14:19:50.973147 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:51.441732 : INFO : asking data for GBP/AUD
+2021-07-11 14:19:51.942739 : INFO : couldn't find any reqId for 1 min GBP/AUD
+2021-07-11 14:19:52.444153 : INFO : couldn't find any reqId for 5 mins GBP/AUD
+2021-07-11 14:19:52.446568 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:52.945660 : INFO : couldn't find any reqId for 15 mins GBP/AUD
+2021-07-11 14:19:52.948164 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:53.446904 : INFO : couldn't find any reqId for 1 hour GBP/AUD
+2021-07-11 14:19:53.449512 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:53.948241 : INFO : couldn't find any reqId for 4 hours GBP/AUD
+2021-07-11 14:19:53.950755 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:54.449605 : INFO : couldn't find any reqId for 1 day GBP/AUD
+2021-07-11 14:19:54.452407 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:54.951136 : INFO : waiting for GBP/AUD data
+2021-07-11 14:19:54.953774 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:55.453889 : INFO : asking data for GBP/USD
+2021-07-11 14:19:55.955132 : INFO : couldn't find any reqId for 1 min GBP/USD
+2021-07-11 14:19:56.456515 : INFO : couldn't find any reqId for 5 mins GBP/USD
+2021-07-11 14:19:56.458114 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:56.957406 : INFO : couldn't find any reqId for 15 mins GBP/USD
+2021-07-11 14:19:56.960757 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:57.458743 : INFO : couldn't find any reqId for 1 hour GBP/USD
+2021-07-11 14:19:57.462307 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:57.960122 : INFO : couldn't find any reqId for 4 hours GBP/USD
+2021-07-11 14:19:57.963800 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:58.461425 : INFO : couldn't find any reqId for 1 day GBP/USD
+2021-07-11 14:19:58.465150 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:58.962833 : INFO : waiting for GBP/USD data
+2021-07-11 14:19:58.966487 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:19:59.465150 : INFO : asking data for GBP/JPY
+2021-07-11 14:19:59.966273 : INFO : couldn't find any reqId for 1 min GBP/JPY
+2021-07-11 14:20:00.467669 : INFO : couldn't find any reqId for 5 mins GBP/JPY
+2021-07-11 14:20:00.469522 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:00.969086 : INFO : couldn't find any reqId for 15 mins GBP/JPY
+2021-07-11 14:20:00.971192 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:01.470407 : INFO : couldn't find any reqId for 1 hour GBP/JPY
+2021-07-11 14:20:01.472914 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:01.971712 : INFO : couldn't find any reqId for 4 hours GBP/JPY
+2021-07-11 14:20:01.974536 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:02.472856 : INFO : couldn't find any reqId for 1 day GBP/JPY
+2021-07-11 14:20:02.475654 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:02.973981 : INFO : waiting for GBP/JPY data
+2021-07-11 14:20:02.976988 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:03.476030 : INFO : asking data for GBP/CAD
+2021-07-11 14:20:03.976884 : INFO : couldn't find any reqId for 1 min GBP/CAD
+2021-07-11 14:20:04.478219 : INFO : couldn't find any reqId for 5 mins GBP/CAD
+2021-07-11 14:20:04.480491 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:04.979879 : INFO : couldn't find any reqId for 15 mins GBP/CAD
+2021-07-11 14:20:04.982008 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:05.481286 : INFO : couldn't find any reqId for 1 hour GBP/CAD
+2021-07-11 14:20:05.483239 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:05.982747 : INFO : couldn't find any reqId for 4 hours GBP/CAD
+2021-07-11 14:20:05.984893 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:06.484160 : INFO : couldn't find any reqId for 1 day GBP/CAD
+2021-07-11 14:20:06.486293 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:06.985452 : INFO : waiting for GBP/CAD data
+2021-07-11 14:20:06.987688 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:07.488073 : INFO : asking data for USD/JPY
+2021-07-11 14:20:07.989247 : INFO : couldn't find any reqId for 1 min USD/JPY
+2021-07-11 14:20:08.490294 : INFO : couldn't find any reqId for 5 mins USD/JPY
+2021-07-11 14:20:08.491835 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:08.991595 : INFO : couldn't find any reqId for 15 mins USD/JPY
+2021-07-11 14:20:08.993687 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:09.492998 : INFO : couldn't find any reqId for 1 hour USD/JPY
+2021-07-11 14:20:09.500513 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:09.994245 : INFO : couldn't find any reqId for 4 hours USD/JPY
+2021-07-11 14:20:10.001698 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:10.495652 : INFO : couldn't find any reqId for 1 day USD/JPY
+2021-07-11 14:20:10.503153 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:10.997014 : INFO : waiting for USD/JPY data
+2021-07-11 14:20:11.004548 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:20:55.092506 : INFO : connecting to the broker
+2021-07-11 14:20:57.604803 : INFO : received new order id: 1
+2021-07-11 14:20:57.604375 : INFO : connection successful
+2021-07-11 14:20:58.106834 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-11 14:20:58.608649 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-11 14:21:02.310217 : INFO : connecting to the broker
+2021-07-11 14:21:04.819124 : INFO : connection successful
+2021-07-11 14:21:04.819030 : INFO : received new order id: 1
+2021-07-11 14:21:05.320652 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-11 14:21:05.821370 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-11 14:21:06.322425 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-11 14:21:06.823611 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-11 14:21:07.322856 : INFO : subscribing to account updates
+2021-07-11 14:21:07.324641 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-11 14:21:07.824087 : INFO : asking data for EUR/USD
+2021-07-11 14:21:07.825417 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-11 14:21:08.325666 : INFO : waiting for EUR/USD data
+2021-07-11 14:21:08.331233 : INFO : updated account portfolio data
+2021-07-11 14:21:08.827210 : INFO : asking data for GBP/AUD
+2021-07-11 14:21:08.832386 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:09.328794 : INFO : waiting for GBP/AUD data
+2021-07-11 14:21:09.333274 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:09.830184 : INFO : asking data for GBP/USD
+2021-07-11 14:21:09.834300 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:10.331595 : INFO : waiting for GBP/USD data
+2021-07-11 14:21:10.335322 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:10.832601 : INFO : asking data for GBP/JPY
+2021-07-11 14:21:10.836430 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:11.333330 : INFO : waiting for GBP/JPY data
+2021-07-11 14:21:11.337193 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:11.834557 : INFO : asking data for GBP/CAD
+2021-07-11 14:21:11.838116 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:12.336666 : INFO : waiting for GBP/CAD data
+2021-07-11 14:21:12.339254 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:12.837967 : INFO : asking data for USD/JPY
+2021-07-11 14:21:12.840290 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:13.339206 : INFO : waiting for USD/JPY data
+2021-07-11 14:21:13.341462 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:13.845815 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:14.367321 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:14.914388 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:15.462418 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:15.994069 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:16.541623 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:17.099047 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:17.640822 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:18.177593 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:18.703699 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:19.235537 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:19.782194 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:21:20.329527 : ERROR : 321 Error validating request.-'bT' : cause - What to show value of B rejected.
+2021-07-11 14:22:16.059538 : INFO : connecting to the broker
+2021-07-11 14:22:18.569726 : INFO : connection successful
+2021-07-11 14:22:21.072309 : INFO : subscribing to account updates
+2021-07-11 14:22:21.574863 : ERROR : 504 Not connected
+2021-07-11 14:22:22.076106 : INFO : asking data for EUR/USD
+2021-07-11 14:22:57.350328 : INFO : connecting to the broker
+2021-07-11 14:22:59.862741 : INFO : connection successful
+2021-07-11 14:23:02.366607 : INFO : subscribing to account updates
+2021-07-11 14:23:02.869166 : ERROR : 504 Not connected
+2021-07-11 14:23:03.370341 : INFO : asking data for EUR/USD
+2021-07-11 14:24:43.684874 : INFO : connecting to the broker
+2021-07-11 14:24:46.221610 : INFO : received new order id: 1
+2021-07-11 14:24:46.221877 : INFO : connection successful
+2021-07-11 14:24:46.723097 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-11 14:24:47.224453 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-11 14:24:47.725765 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-11 14:24:48.226997 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-11 14:24:48.725436 : INFO : subscribing to account updates
+2021-07-11 14:24:48.728123 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-11 14:24:49.226744 : INFO : asking data for EUR/USD
+2021-07-11 14:24:49.229297 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-11 14:24:49.728539 : INFO : waiting for EUR/USD data
+2021-07-11 14:24:49.733022 : INFO : updated account portfolio data
+2021-07-11 14:24:50.229619 : INFO : asking data for GBP/AUD
+2021-07-11 14:24:50.730739 : INFO : waiting for GBP/AUD data
+2021-07-11 14:24:51.231702 : INFO : asking data for GBP/USD
+2021-07-11 14:24:51.733950 : INFO : waiting for GBP/USD data
+2021-07-11 14:24:52.235239 : INFO : asking data for GBP/JPY
+2021-07-11 14:24:52.772567 : INFO : waiting for GBP/JPY data
+2021-07-11 14:24:53.273410 : INFO : asking data for GBP/CAD
+2021-07-11 14:24:53.774498 : INFO : waiting for GBP/CAD data
+2021-07-11 14:24:54.275596 : INFO : asking data for USD/JPY
+2021-07-11 14:24:54.776898 : INFO : waiting for USD/JPY data
+2021-07-11 14:28:32.870461 : INFO : connecting to the broker
+2021-07-11 14:28:35.386114 : INFO : connection successful
+2021-07-11 14:28:35.387640 : INFO : received new order id: 1
+2021-07-11 14:28:35.890661 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-11 14:28:36.392304 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-11 14:28:36.893862 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-11 14:28:37.395768 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-11 14:28:37.889233 : INFO : subscribing to account updates
+2021-07-11 14:28:37.897440 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-11 14:28:38.390924 : INFO : asking data for EUR/USD
+2021-07-11 14:28:38.398637 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-11 14:29:00.667571 : INFO : waiting for EUR/USD data
+2021-07-11 14:29:00.686133 : INFO : updated account portfolio data
+2021-07-11 14:31:17.907406 : INFO : all data for EUR/USD has been retrieved
+2021-07-11 14:31:18.408560 : INFO : asking data for GBP/AUD
+2021-07-11 14:31:18.911384 : INFO : waiting for GBP/AUD data
+2021-07-11 14:32:35.995914 : INFO : all data for GBP/AUD has been retrieved
+2021-07-11 14:33:24.305654 : INFO : asking data for GBP/USD
+2021-07-11 14:33:24.808636 : INFO : waiting for GBP/USD data
+2021-07-11 14:47:56.385096 : INFO : connecting to the broker
+2021-07-11 14:47:58.889493 : INFO : received new order id: 1
+2021-07-11 14:47:58.889716 : INFO : connection successful
+2021-07-11 14:47:59.390887 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-11 14:47:59.891954 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-11 14:48:00.393158 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-11 14:48:00.894219 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-11 14:48:01.392673 : INFO : subscribing to account updates
+2021-07-11 14:48:01.395267 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-11 14:48:01.893402 : INFO : asking data for EUR/USD
+2021-07-11 14:48:01.896325 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-11 14:48:02.394459 : INFO : waiting for EUR/USD data
+2021-07-11 14:48:02.400821 : INFO : updated account portfolio data
+2021-07-11 14:48:04.319110 : INFO : all data for EUR/USD has been retrieved
+2021-07-11 14:48:04.820094 : INFO : asking data for GBP/AUD
+2021-07-11 14:48:05.321532 : INFO : waiting for GBP/AUD data
+2021-07-11 14:48:06.637763 : INFO : all data for GBP/AUD has been retrieved
+2021-07-11 14:48:07.138671 : INFO : asking data for GBP/USD
+2021-07-11 14:48:07.640168 : INFO : waiting for GBP/USD data
+2021-07-11 14:48:09.252900 : INFO : all data for GBP/USD has been retrieved
+2021-07-11 14:48:09.753758 : INFO : asking data for GBP/JPY
+2021-07-11 14:48:10.254905 : INFO : waiting for GBP/JPY data
+2021-07-11 14:48:11.974602 : INFO : all data for GBP/JPY has been retrieved
+2021-07-11 14:48:12.475460 : INFO : asking data for GBP/CAD
+2021-07-11 14:48:12.976853 : INFO : waiting for GBP/CAD data
+2021-07-11 14:48:15.600572 : INFO : all data for GBP/CAD has been retrieved
+2021-07-11 14:48:16.101062 : INFO : asking data for USD/JPY
+2021-07-11 14:48:16.602316 : INFO : waiting for USD/JPY data
+2021-07-11 14:48:21.331089 : INFO : all data for USD/JPY has been retrieved
+2021-07-12 16:28:44.851223 : INFO : purging outdated market data
+2021-07-12 16:28:45.352064 : INFO : asking data for EUR/USD
+2021-07-12 16:28:45.853364 : ERROR : 504 Not connected
+2021-07-12 16:28:46.354395 : INFO : waiting for EUR/USD data
+2021-07-12 16:29:00.263732 : INFO : purging outdated market data
+2021-07-12 16:29:00.765029 : INFO : asking data for EUR/USD
+2021-07-12 16:29:01.267726 : ERROR : 504 Not connected
+2021-07-12 16:29:01.768779 : INFO : waiting for EUR/USD data
+2021-07-12 16:29:53.838534 : INFO : purging outdated market data
+2021-07-12 16:29:54.339260 : INFO : asking data for EUR/USD
+2021-07-12 16:29:54.840453 : ERROR : 504 Not connected
+2021-07-12 16:29:55.341305 : INFO : waiting for EUR/USD data
+2021-07-12 16:30:17.262502 : INFO : purging outdated market data
+2021-07-12 16:30:17.763303 : INFO : asking data for EUR/USD
+2021-07-12 16:30:18.264562 : ERROR : 504 Not connected
+2021-07-12 16:30:18.765573 : INFO : waiting for EUR/USD data
+2021-07-12 16:30:39.454732 : INFO : purging outdated market data
+2021-07-12 16:30:39.955021 : INFO : asking data for EUR/USD
+2021-07-12 16:30:40.456168 : ERROR : 504 Not connected
+2021-07-12 16:30:40.956716 : INFO : waiting for EUR/USD data
+2021-07-12 16:32:11.091699 : INFO : purging outdated market data
+2021-07-12 16:32:11.592498 : INFO : asking data for EUR/USD
+2021-07-12 16:32:12.093769 : ERROR : 504 Not connected
+2021-07-12 16:32:12.594682 : INFO : waiting for EUR/USD data
+2021-07-12 16:36:56.078433 : INFO : purging outdated market data
+2021-07-12 16:36:56.578914 : INFO : asking data for EUR/USD
+2021-07-12 16:36:57.079883 : ERROR : 504 Not connected
+2021-07-12 16:36:57.580661 : INFO : waiting for EUR/USD data
+2021-07-12 16:46:01.896376 : INFO : purging outdated market data
+2021-07-12 16:46:02.397573 : INFO : asking data for EUR/USD
+2021-07-12 16:46:02.899339 : ERROR : 504 Not connected
+2021-07-12 16:46:03.400157 : INFO : waiting for EUR/USD data
+2021-07-12 16:49:48.696743 : INFO : connecting to the broker
+2021-07-12 16:49:51.262419 : INFO : received new order id: 1
+2021-07-12 16:49:51.262516 : INFO : connection successful
+2021-07-12 16:49:51.764902 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 16:49:52.266861 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 16:49:52.768196 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 16:49:53.269298 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 16:49:53.765684 : INFO : subscribing to account updates
+2021-07-12 16:49:53.769950 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 16:49:54.266699 : INFO : purging outdated market data
+2021-07-12 16:49:54.270939 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 16:49:54.767648 : INFO : asking data for EUR/USD
+2021-07-12 16:49:54.785257 : INFO : updated account portfolio data
+2021-07-12 16:49:55.268917 : INFO : waiting for EUR/USD data
+2021-07-12 16:50:00.579249 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 16:50:16.445442 : INFO : connecting to the broker
+2021-07-12 16:50:18.954281 : INFO : received new order id: 1
+2021-07-12 16:50:18.954487 : INFO : connection successful
+2021-07-12 16:50:19.455900 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 16:50:19.957036 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 16:50:20.458136 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 16:50:20.959122 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 16:50:21.457707 : INFO : subscribing to account updates
+2021-07-12 16:50:21.460039 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 16:50:21.958905 : INFO : purging outdated market data
+2021-07-12 16:50:21.961167 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 16:50:22.459822 : INFO : asking data for EUR/USD
+2021-07-12 16:50:22.473182 : INFO : updated account portfolio data
+2021-07-12 16:50:22.960886 : INFO : waiting for EUR/USD data
+2021-07-12 16:50:24.442042 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 16:52:03.059374 : INFO : connecting to the broker
+2021-07-12 16:52:05.568495 : INFO : connection successful
+2021-07-12 16:52:08.069783 : INFO : subscribing to account updates
+2021-07-12 16:52:08.571644 : ERROR : 504 Not connected
+2021-07-12 16:52:09.072528 : INFO : purging outdated market data
+2021-07-12 16:52:09.573382 : INFO : asking data for EUR/USD
+2021-07-12 16:52:10.074492 : ERROR : 504 Not connected
+2021-07-12 16:52:10.575563 : INFO : waiting for EUR/USD data
+2021-07-12 16:52:45.885524 : INFO : connecting to the broker
+2021-07-12 16:52:48.392444 : INFO : connection successful
+2021-07-12 16:52:50.893679 : INFO : subscribing to account updates
+2021-07-12 16:52:51.394733 : ERROR : 504 Not connected
+2021-07-12 16:52:51.895628 : INFO : purging outdated market data
+2021-07-12 16:52:52.396641 : INFO : asking data for EUR/USD
+2021-07-12 16:52:52.897809 : ERROR : 504 Not connected
+2021-07-12 16:52:53.398657 : INFO : waiting for EUR/USD data
+2021-07-12 16:54:01.307913 : INFO : connecting to the broker
+2021-07-12 16:54:03.878213 : INFO : connection successful
+2021-07-12 16:54:03.878147 : INFO : received new order id: 1
+2021-07-12 16:54:04.381639 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 16:54:04.883029 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 16:54:05.384944 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 16:54:05.886050 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 16:54:06.381677 : INFO : subscribing to account updates
+2021-07-12 16:54:06.387191 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 16:54:06.882760 : INFO : purging outdated market data
+2021-07-12 16:54:06.888404 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 16:54:07.383531 : INFO : asking data for EUR/USD
+2021-07-12 16:54:07.394690 : INFO : updated account portfolio data
+2021-07-12 16:54:07.885116 : INFO : waiting for EUR/USD data
+2021-07-12 16:54:09.359100 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 16:58:40.033330 : INFO : connecting to the broker
+2021-07-12 16:58:42.541192 : INFO : connection successful
+2021-07-12 16:58:45.043834 : INFO : subscribing to account updates
+2021-07-12 16:58:45.544783 : ERROR : 504 Not connected
+2021-07-12 16:58:46.045588 : INFO : purging outdated market data
+2021-07-12 16:58:46.546569 : INFO : asking data for EUR/USD
+2021-07-12 16:58:47.048030 : ERROR : 504 Not connected
+2021-07-12 16:58:47.549383 : ERROR : 504 Not connected
+2021-07-12 16:58:48.049730 : INFO : waiting for EUR/USD data
+2021-07-12 16:59:25.205096 : INFO : connecting to the broker
+2021-07-12 16:59:27.714981 : INFO : connection successful
+2021-07-12 16:59:30.218765 : INFO : subscribing to account updates
+2021-07-12 16:59:30.720596 : ERROR : 504 Not connected
+2021-07-12 16:59:31.221497 : INFO : purging outdated market data
+2021-07-12 16:59:31.722454 : INFO : asking data for EUR/USD
+2021-07-12 16:59:32.225024 : ERROR : 504 Not connected
+2021-07-12 16:59:32.727406 : ERROR : 504 Not connected
+2021-07-12 16:59:33.228764 : INFO : waiting for EUR/USD data
+2021-07-12 17:01:00.020794 : INFO : connecting to the broker
+2021-07-12 17:01:02.560207 : INFO : received new order id: 1
+2021-07-12 17:01:02.560258 : INFO : connection successful
+2021-07-12 17:01:03.061360 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 17:01:03.561976 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 17:01:04.063474 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 17:01:04.564918 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 17:01:05.061857 : INFO : subscribing to account updates
+2021-07-12 17:01:05.065927 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 17:01:05.563908 : INFO : purging outdated market data
+2021-07-12 17:01:05.567022 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 17:01:06.064714 : INFO : asking data for EUR/USD
+2021-07-12 17:01:06.073216 : INFO : updated account portfolio data
+2021-07-12 17:01:06.565787 : INFO : waiting for EUR/USD data
+2021-07-12 17:01:10.252625 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 17:02:26.093144 : INFO : connecting to the broker
+2021-07-12 17:02:28.614139 : INFO : connection successful
+2021-07-12 17:02:31.117032 : INFO : subscribing to account updates
+2021-07-12 17:02:31.617860 : ERROR : 504 Not connected
+2021-07-12 17:02:32.118572 : INFO : purging outdated market data
+2021-07-12 17:02:32.619348 : INFO : asking data for EUR/USD
+2021-07-12 17:02:33.120331 : ERROR : 504 Not connected
+2021-07-12 17:02:33.621395 : ERROR : 504 Not connected
+2021-07-12 17:02:34.121703 : INFO : waiting for EUR/USD data
+2021-07-12 17:03:38.923049 : INFO : connecting to the broker
+2021-07-12 17:03:41.476587 : INFO : received new order id: 1
+2021-07-12 17:03:41.476846 : INFO : connection successful
+2021-07-12 17:03:41.977796 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 17:03:42.479048 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 17:03:42.980996 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 17:03:43.482561 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 17:03:43.979815 : INFO : subscribing to account updates
+2021-07-12 17:03:43.983819 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 17:03:44.481385 : INFO : purging outdated market data
+2021-07-12 17:03:44.485153 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 17:03:44.982518 : INFO : asking data for EUR/USD
+2021-07-12 17:03:44.990796 : INFO : updated account portfolio data
+2021-07-12 17:03:45.483747 : INFO : waiting for EUR/USD data
+2021-07-12 17:03:49.197681 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 19:21:31.277410 : INFO : connecting to the broker
+2021-07-12 19:21:33.809088 : INFO : received new order id: 1
+2021-07-12 19:21:33.809155 : INFO : connection successful
+2021-07-12 19:21:34.310485 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 19:21:34.811727 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 19:21:35.312757 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 19:21:35.813949 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 19:21:36.312643 : INFO : subscribing to account updates
+2021-07-12 19:21:36.315250 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 19:21:36.813579 : INFO : purging outdated market data
+2021-07-12 19:21:36.816296 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 19:21:37.314456 : INFO : asking data for EUR/USD
+2021-07-12 19:21:37.322571 : INFO : updated account portfolio data
+2021-07-12 19:21:37.815777 : INFO : waiting for EUR/USD data
+2021-07-12 19:21:40.651303 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 21:05:46.673140 : INFO : connecting to the broker
+2021-07-12 21:05:49.203432 : INFO : received new order id: 1
+2021-07-12 21:05:49.203666 : INFO : connection successful
+2021-07-12 21:05:49.704897 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 21:05:50.206196 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 21:05:50.707540 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 21:05:51.208849 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 21:05:51.707237 : INFO : subscribing to account updates
+2021-07-12 21:05:51.710053 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 21:05:52.208513 : INFO : purging outdated market data
+2021-07-12 21:05:52.211227 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 21:05:52.709540 : INFO : asking data for EUR/USD
+2021-07-12 21:05:52.717295 : INFO : updated account portfolio data
+2021-07-12 21:05:53.210893 : INFO : waiting for EUR/USD data
+2021-07-12 21:05:55.695411 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 21:12:19.739533 : INFO : connecting to the broker
+2021-07-12 21:12:22.249330 : INFO : received new order id: 1
+2021-07-12 21:12:22.249405 : INFO : connection successful
+2021-07-12 21:12:22.750936 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 21:12:23.252004 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 21:12:23.753263 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 21:12:24.253954 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 21:12:24.752651 : INFO : subscribing to account updates
+2021-07-12 21:12:24.755123 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 21:12:25.253886 : INFO : purging outdated market data
+2021-07-12 21:12:25.256394 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 21:12:25.755111 : INFO : asking data for EUR/USD
+2021-07-12 21:12:25.764452 : INFO : updated account portfolio data
+2021-07-12 21:12:26.256475 : INFO : waiting for EUR/USD data
+2021-07-12 21:12:52.587073 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 21:17:21.739796 : INFO : connecting to the broker
+2021-07-12 21:17:24.248135 : INFO : received new order id: 1
+2021-07-12 21:17:24.248391 : INFO : connection successful
+2021-07-12 21:17:24.749549 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 21:17:25.250467 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 21:17:25.751516 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 21:17:26.252677 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 21:17:26.749802 : INFO : subscribing to account updates
+2021-07-12 21:17:26.753849 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 21:17:27.250915 : INFO : purging outdated market data
+2021-07-12 21:17:27.258539 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 21:17:27.751736 : INFO : asking data for EUR/USD
+2021-07-12 21:17:27.764637 : INFO : updated account portfolio data
+2021-07-12 21:17:28.252950 : INFO : waiting for EUR/USD data
+2021-07-12 21:17:54.804360 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 21:20:03.234281 : INFO : connecting to the broker
+2021-07-12 21:20:05.742204 : INFO : connection successful
+2021-07-12 21:20:08.245327 : INFO : subscribing to account updates
+2021-07-12 21:20:08.746615 : ERROR : 504 Not connected
+2021-07-12 21:20:09.247506 : INFO : purging outdated market data
+2021-07-12 21:20:09.748410 : INFO : asking data for EUR/USD
+2021-07-12 21:20:10.249643 : ERROR : 504 Not connected
+2021-07-12 21:20:10.750904 : ERROR : 504 Not connected
+2021-07-12 21:20:11.251730 : INFO : waiting for EUR/USD data
+2021-07-12 21:22:52.361984 : INFO : connecting to the broker
+2021-07-12 21:22:54.891618 : INFO : connection successful
+2021-07-12 21:22:54.891515 : INFO : received new order id: 1
+2021-07-12 21:22:55.393257 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 21:22:55.893999 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 21:22:56.395090 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 21:22:56.896198 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 21:22:57.395480 : INFO : subscribing to account updates
+2021-07-12 21:22:57.397292 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 21:22:57.896556 : INFO : purging outdated market data
+2021-07-12 21:22:57.898075 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 21:22:58.397595 : INFO : asking data for EUR/USD
+2021-07-12 21:22:58.403012 : INFO : updated account portfolio data
+2021-07-12 21:22:58.898918 : INFO : waiting for EUR/USD data
+2021-07-12 21:23:25.332918 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 21:32:43.503999 : INFO : connecting to the broker
+2021-07-12 21:32:46.012555 : INFO : received new order id: 1
+2021-07-12 21:32:46.012667 : INFO : connection successful
+2021-07-12 21:32:46.513812 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-12 21:32:47.015123 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-12 21:32:47.516366 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-12 21:32:48.017315 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-12 21:32:48.515952 : INFO : subscribing to account updates
+2021-07-12 21:32:48.518184 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-12 21:32:49.017004 : INFO : purging outdated market data
+2021-07-12 21:32:49.019545 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-12 21:32:49.517694 : INFO : asking data for EUR/USD
+2021-07-12 21:32:49.522408 : INFO : updated account portfolio data
+2021-07-12 21:32:50.018595 : INFO : waiting for EUR/USD data
+2021-07-12 21:33:34.201473 : INFO : all data for EUR/USD has been retrieved
+2021-07-12 23:09:05.434432 : ERROR : 2103 Market data farm connection is broken:cashfarm
+2021-07-12 23:09:06.328695 : ERROR : 2104 Market data farm connection is OK:cashfarm

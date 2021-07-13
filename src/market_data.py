@@ -5,53 +5,57 @@ import numpy as np
 import pandas as pd
 import animation
 
-from settings import get_settings
-from contract import get_contract
-from log import log
+import settings
+import contract
+import log
+import ib_interface
+import session
 
 # variables:
-data_type, symbols, timeframes = get_settings(
-    "data_type", "symbols", "timeframes")
+data_type = settings.get_settings("data_type")
 
 
 # external use :
-def ask_data(ib):
-    """Asks market data to interactive brokers for the symbols specified in
-    settings. For each of those symbols, the function asks data in the
-    specified barsizes and for the specified duration.
+def clear_data(ib):
+    log.log("purging outdated market data")
+    reqs = [i for i in ib.market]
+    ib.market = {}
+    ib.reqId_info = {}
+    for i in reqs:
+        ib.cancelHistoricalData(i)
 
-    Args:
-        ib (IBApi obj): an IBApi object from which the data must be requested.
-    """
+
+def ask_data(ib, symbols, timeframes):
+    clear_data(ib)
     for symbol in symbols:
         reqIds = []
-        contract = get_contract(symbol)
-        log(f"asking data for {symbol}")
+        symbol_contract = contract.get_contract(symbol)
+        log.log(f"asking data for {symbol}")
         start_time = time.time()
         for i in timeframes:
             barsize, duration = i
             reqId = ib.nextReqId
-            reqIds.append(reqId)
             add_reqId_info(ib, reqId, symbol, barsize)
             ib.nextReqId += 1
-            ib.reqHistoricalData(reqId, contract, "", duration,
+            reqIds.append(reqId)
+            ib.reqHistoricalData(reqId, symbol_contract, "", duration,
                                  barsize, data_type, 0, 1, 0, [])
-        log(f"waiting for {symbol} data")
+        log.log(f"waiting for {symbol} data")
         wait = animation.Wait()
         wait.start()
-    while True:
-        if ib.active_data_reqs == 0:
-            wait.stop()
-            log(f"all data for {symbol} has been retrieved")
-            break
+        while True:
+            if ib.active_data_reqs == 0:
+                wait.stop()
+                log.log(f"all data for {symbol} has been retrieved")
+                break
 
-        if (start_time - time.time()) > 120:
-            wait.stop()
-            log("No data after 120 secs, cancelling requests." +
-                " Program might have requested too much data.")
-            for reqId in reqIds:
-                ib.cancelHistoricalData(reqId)
-            break
+            if (start_time - time.time()) > 120:
+                wait.stop()
+                log.log("No data after 120 secs, cancelling requests." +
+                        " Program might have requested too much data.")
+                for reqId in reqIds:
+                    ib.cancelHistoricalData(reqId)
+                break
 
 
 def get_data(ib, symbol, barsize=None, nb_of_data_points=0, data_format="numpy"):
@@ -73,13 +77,14 @@ def get_data(ib, symbol, barsize=None, nb_of_data_points=0, data_format="numpy")
                                         ...
                                         [timestamp, open, high, low, close]])
     """
-    if barsize == None:
-        barsizes = [tf[0] for tf in timeframes]
+    if type(barsize) in (type(()), type([])):
         data = []
+        barsizes = barsize.copy()
+        del barsize
         for barsize in barsizes:
             reqId = get_reqId_from_info(ib, symbol, barsize)
             if reqId == None:
-                log(f"couldn't find data for {symbol} {barsize}")
+                log.log(f"couldn't find data for {symbol} {barsize}")
                 break
             bs_data = ib.market[reqId][-nb_of_data_points:]
             bs_data = np.array(bs_data, dtype=np.float64)
@@ -88,7 +93,7 @@ def get_data(ib, symbol, barsize=None, nb_of_data_points=0, data_format="numpy")
     else:
         reqId = get_reqId_from_info(ib, symbol, barsize)
         if reqId == None:
-            log(f"couldn't find data for {symbol} {barsize}")
+            log.log(f"couldn't find data for {symbol} {barsize}")
         data = ib.market[reqId][-nb_of_data_points:]
         data = np.array(data, dtype=np.float64)
         data = filter_arr(data)
@@ -105,7 +110,6 @@ def get_reqId_from_info(ib, symbol, barsize):
         if ib.reqId_info[key] == info:
             return key
 
-    log(f"couldn't find any reqId for {barsize} {symbol}")
     return None
 
 
@@ -131,3 +135,10 @@ def filter_arr(arr):
 
 
 # program :
+if __name__ == "__main__":
+    ib = ib_interface.IBApi()
+    session.start_session(ib)
+    pairs = ["EUR/USD", "GBP/AUD", "GBP/USD", "GBP/JPY", "GBP/CAD", "USD/JPY"]
+    tfs = [("1 min", "2 D"), ("5 mins", "1 W"),
+           ("4 hours", "6 M"), ("1 day", "1 Y")]
+    ask_data(ib, pairs, tfs,)

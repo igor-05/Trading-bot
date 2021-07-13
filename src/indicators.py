@@ -4,8 +4,12 @@ import time
 import numpy as np
 import pandas as pd
 
-from vectorized_ema import ewma_vectorized_safe
+from vectorized_ema import ewma_vectorized_safe as ewma
 from data import market_data as test_data
+import plot
+import ib_interface
+import session
+import market_data
 
 """
 Module storing functions returning technical indicators.
@@ -28,7 +32,7 @@ Rules for the function :
 
 
 # external :
-def ma(data, window):
+def sma(data, window):
     close_prices = data[:, 4]
     ma = moving_average(close_prices, window)
 
@@ -42,13 +46,12 @@ def ma(data, window):
 def ema(data, window):
     alpha = 2/(window + 1)
     close_prices = data[:, 4]
-    ema = ewma_vectorized_safe(close_prices, alpha)
+    ema = ewma(close_prices, alpha)
     return np.stack((data[:, 0], ema), axis=1)
 
 
 def rsi(data, period=14):
     delta = np.diff(data[:, 4])
-
     positive = delta.copy()
     negative = delta.copy()
 
@@ -72,26 +75,33 @@ def macd(data, fast=12, slow=26, signal=9):
     slow_alpha = 2/(slow + 1)
     signal_alpha = 2/(signal + 1)
 
-    out = np.zeros((len(data), 4), dtype=np.float64)
-    out[:, 0] = data[:, 0]
+    out = np.zeros((data.shape[0], 4), dtype=np.float64)
+    out[:, 0] = data[:, 0]  # timestamps
 
     # macd line :
-    out[:, 1] = ewma_vectorized_safe(
-        data[:, 4], fast_alpha) - ewma_vectorized_safe(data[:, 4], slow_alpha)
-    # signal line :
-    out[:, 2] = ewma_vectorized_safe(out[:, 1], signal_alpha)
-    # histogram :
-    out[:, 3] = out[:, 1] - out[:, 2]
+    out[:, 1] = ewma(data[:, 4], fast_alpha) - ewma(data[:, 4], slow_alpha)
+    out[:, 2] = ewma(out[:, 1], signal_alpha)  # signal line
+    out[:, 3] = out[:, 1] - out[:, 2]  # histogram
     return out
 
 
 def avg_volatility(data):
-    deltas = data[:, 2] - data[:, 3]
+    deltas = np.absolute(data[:, 4] - data[:, 1])
     avg = np.sum(deltas) / deltas.shape[0]
     return avg
 
 
-def sup_and_res(data):
+def bbands(data, period=20, std_multiplier=2):
+    sigmas = std(data, period)
+    out = np.zeros((data.shape[0], 4))
+    out[:, 0] = data[:, 0]  # timestamps
+    out[:, 1] = sma(data, period)  # middle band
+    out[:, 2] = out[:, 1] + sigmas[:, 1] * std_multiplier  # upper band
+    out[:, 3] = out[:, 1] - sigmas[:, 1] * std_multiplier  # lower band
+    return out
+
+
+def sd_zones(data):
     pass
 
 
@@ -102,45 +112,23 @@ def moving_average(a, n):
     return ret[n - 1:] / n
 
 
-def maximas_and_minimas(data, winsize, delta=None, smooth_prices=False):
-    if delta == None:
-        delta = avg_volatility(data) * winsize
-
-    if smooth_prices:
-        close_prices = ema(data, 20)
-        if delta == None:
-            delta = np.sum(
-                np.abs(np.diff(close_prices[:, 1]))) / len(close_prices)
-            delta = delta * winsize
-    else:
-        close_prices = data[:, (0, 4)]
-
-    col_nb = 2 * winsize + 1
-    windows = np.zeros((data.shape[0] - 2 * winsize, col_nb))
-    for i in range(col_nb):
-        windows[:, i] = close_prices[i:windows.shape[0]+i, 1]
-
-    maximas = np.stack(
-        (data[winsize:-winsize, 0], windows.max(axis=1)), axis=1)
-
-    minimas = np.stack(
-        (data[winsize:-winsize, 0], windows.min(axis=1)), axis=1)
-
-    cond1 = np.array((maximas[:, 1] - windows[:, 0]) > delta, dtype=np.byte)
-    cond2 = np.array((maximas[:, 1] - windows[:, -1]) > delta, dtype=np.byte)
-    cond3 = np.array(maximas[:, 1] == windows[:, winsize], dtype=np.byte)
-    maximas = maximas[cond1+cond2+cond3 == 3]
-
-    cond1 = np.array((windows[:, 0] - minimas[:, 1]) > delta, dtype=np.byte)
-    cond2 = np.array((windows[:, -1] - minimas[:, 1]) > delta, dtype=np.byte)
-    cond3 = np.array(minimas[:, 1] == windows[:, winsize], dtype=np.byte)
-    minimas = minimas[cond1+cond2+cond3 == 3]
-    del windows, cond1, cond2, cond3
-    return maximas, minimas
+def std(data, period):
+    closing_prices = data[:, 4]
+    windows = np.zeros((data.shape[0] - period, period))
+    for i in range(period):
+        windows[:, i] = closing_prices[i:windows.shape[0]+i]
+    std = np.std(windows, axis=1)
+    extra_values = np.zeros(period)
+    extra_values[:] = np.nan
+    std = np.concatenate((extra_values, std))
+    return np.stack((data[:, 0], std), axis=1)
 
 
 # program
-warnings.filterwarnings("ignore", category=RuntimeWarning)
 if __name__ == '__main__':
-    a = ema(test_data, 20)
-    print(a)
+    ib = ib_interface.IBApi()
+    session.start_session(ib)
+    market_data.ask_data(
+        ib, ["EUR/USD", ], [("4 hours", "2 Y"), ("15 mins", "6 M")])
+    data = market_data.get_data(ib, "EUR/USD", barsize="4 hours")
+    data2 = market_data.get_data(ib, "EUR/USD", barsize="15 mins")

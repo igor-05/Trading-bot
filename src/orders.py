@@ -4,14 +4,12 @@ import cachetools.func
 
 from ibapi.order import Order
 
-
-from log import log
-from settings import get_settings
-from stop_program import stop_program
-from contract import get_contract
+import log
+import settings
+import contract
 
 # variables
-currency_rates_api_key = get_settings("freecurrencyapi_key")
+currency_rates_api_key = settings.get_settings("freecurrencyapi_key")
 
 # external use :
 
@@ -27,8 +25,8 @@ def bracket_order(ib, symbol, action, stp_price, lmt_price, size):
         lmt_price ([type]): [description]
         size ([type]): [description]
     """
-    contract = get_contract(symbol)
-    size_in_base_currency = usd_to_currency(size, contract.currency)
+    symbol_contract = contract.get_contract(symbol)
+    size_in_base_currency = usd_to_currency(size, symbol_contract.currency)
 
     parent = Order()
     parent.orderId = ib.nextOrderId
@@ -58,8 +56,8 @@ def bracket_order(ib, symbol, action, stp_price, lmt_price, size):
 
     bracket_order = [parent, take_profit, stop_loss]
     for order in bracket_order:
-        ib.placeOrder(order.orderId, contract, order)
-        log(f"placing order {order.orderId}")
+        ib.placeOrder(order.orderId, symbol_contract, order)
+        log.log(f"placing order {order.orderId}")
 
 
 def option_order():
@@ -76,7 +74,7 @@ def get_usd_rates():
         'apikey': currency_rates_api_key}
     response = requests.get(url, headers=headers)
     if not response.ok:
-        log("couldn't connect to currency rate api")
+        log.log("couldn't connect to currency rate api")
     rates = json.loads(response.text)["data"]
     rates = rates[list(rates.keys())[0]]
     return rates
@@ -89,7 +87,8 @@ def usd_to_currency(usd_value, to_currency):
         usd_to_currency_rate = rates[to_currency]
         return usd_value * usd_to_currency_rate
     except KeyError():
-        log(f"asked currency rate for {to_currency}/USD but it doesn't exist")
+        log.log(
+            f"asked currency rate for {to_currency}/USD but it doesn't exist")
 
 
 # program :

@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-from market_data import np_array_to_pd_df
-from indicators import rsi
-from data import market_data
+import market_data
+import indicators
+from data import market_data as test_data
 
 # variables :
 
@@ -24,7 +24,7 @@ def plot_strategy_results(results):
 
 
 def plot_rsi(data):
-    rsi_data = rsi(data)
+    rsi_data = indicators.rsi(data)
     rsi_data = np.array(rsi_data, dtype="object")
     for i in range(len(rsi_data)):
         rsi_data[i, 0] = datetime.fromtimestamp(rsi_data[i, 0])
@@ -41,11 +41,24 @@ def plot_rsi(data):
     plt.axhline(100, linestyle='--', alpha=0.1)
     plt.show()
 
+
+def plot_sup_dem_zones(data, maximas, minimas):
+    fig = mkt_data_fig(data)
+    for i in maximas:
+        dt = datetime.fromtimestamp(i[0])
+        fig.add_hrect(y0=i[1], y1=i[2], line_width=0,
+                      fillcolor="grey", opacity=0.2)
+
+    for i in minimas:
+        dt = datetime.fromtimestamp(i[0])
+        fig.add_hrect(y0=i[1], y1=i[2], line_width=0,
+                      fillcolor="grey", opacity=0.2)
+    fig.show()
+
+
 # internal use :
-
-
 def mkt_data_fig(data):
-    data = np_array_to_pd_df(data)
+    data = market_data.np_array_to_pd_df(data)
     fig = go.Figure(
         go.Candlestick(x=data["date"], open=data["open"],
                        high=data["high"], low=data["low"],
@@ -57,4 +70,4 @@ def mkt_data_fig(data):
 
 # program :
 if __name__ == "__main__":
-    plot_mkt_data(market_data, title="Apple Stock")
+    plot_mkt_data(test_data, title="Apple Stock")

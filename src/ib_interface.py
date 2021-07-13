@@ -2,12 +2,12 @@ from datetime import datetime
 import threading
 import time
 
+import numpy as np
+
 from ibapi.wrapper import EWrapper
 from ibapi.client import EClient
 
-from log import log
-from settings import get_settings
-from stop_program import stop_program
+import log
 
 """
 This module will handle the IBAccount class ; the interface between the
@@ -68,146 +68,124 @@ class IBApi(EWrapper, EClient):
         self.market = {}
         self.orders = {}
         self.account = {
-            "AccountCode": None,
-            "AccountOrGroup": None,
-            "AccountReady": None,
-            "AccountType": None,
-            "AccruedCash": None,
-            "AccruedCash-C": None,
-            "AccruedCash-S": None,
-            "AccruedDividend": None,
-            "AccruedDividend-C": None,
-            "AccruedDividend-S": None,
-            "AvailableFunds": None,
-            "AvailableFunds-C": None,
-            "AvailableFunds-S": None,
-            "Billable": None,
-            "Billable-C": None,
-            "Billable-S": None,
-            "BuyingPower": None,
-            "CashBalance": None,
-            "CorporateBondValue": None,
-            "Currency": None,
-            "Cushion": None,
-            "DayTradesRemaining": None,
-            "DayTradesRemainingT+1": None,
-            "DayTradesRemainingT+2": None,
-            "DayTradesRemainingT+3": None,
-            "DayTradesRemainingT+4": None,
-            "EquityWithLoanValue": None,
-            "EquityWithLoanValue-C": None,
-            "EquityWithLoanValue-S": None,
-            "ExcessLiquidity": None,
-            "ExcessLiquidity-C": None,
-            "ExcessLiquidity-S": None,
-            "ExchangeRate": None,
-            "FullAvailableFunds": None,
-            "FullAvailableFunds-C": None,
-            "FullAvailableFunds-S": None,
-            "FullExcessLiquidity": None,
-            "FullExcessLiquidity-C": None,
-            "FullExcessLiquidity-S": None,
-            "FullInitMarginReq": None,
-            "FullInitMarginReq-C": None,
-            "FullInitMarginReq-S": None,
-            "FullMaintMarginReq": None,
-            "FullMaintMarginReq-C": None,
-            "FullMaintMarginReq-S": None,
-            "FundValue": None,
-            "FutureOptionValue": None,
-            "FuturesPNL": None,
-            "FxCashBalance": None,
-            "GrossPositionValue": None,
-            "GrossPositionValue-S": None,
-            "IndianStockHaircut": None,
-            "InitMarginReq": None,
-            "InitMarginReq-C": None,
-            "InitMarginReq-S": None,
-            "IssuerOptionValue": None,
-            "Leverage-S": None,
-            "LookAheadNextChange": None,
-            "LookAheadAvailableFunds": None,
-            "LookAheadAvailableFunds-C": None,
-            "LookAheadAvailableFunds-S": None,
-            "LookAheadExcessLiquidity": None,
-            "LookAheadExcessLiquidity-C": None,
-            "LookAheadExcessLiquidity-S": None,
-            "LookAheadInitMarginReq": None,
-            "LookAheadInitMarginReq-C": None,
-            "LookAheadInitMarginReq-S": None,
-            "LookAheadMaintMarginReq": None,
-            "LookAheadMaintMarginReq-C": None,
-            "LookAheadMaintMarginReq-S": None,
-            "MaintMarginReq": None,
-            "MaintMarginReq-C": None,
-            "MaintMarginReq-S": None,
-            "MoneyMarketFundValue": None,
-            "MutualFundValue": None,
-            "NetDividend": None,
-            "NetLiquidation": None,
-            "NetLiquidation-C": None,
-            "NetLiquidation-S": None,
-            "NetLiquidationByCurrency": None,
-            "OptionMarketValue": None,
-            "PASharesValue": None,
-            "PASharesValue-C": None,
-            "PASharesValue-S": None,
-            "PostExpirationExcess": None,
-            "PostExpirationExcess-C": None,
-            "PostExpirationExcess-S": None,
-            "PostExpirationMargin": None,
-            "PostExpirationMargin-C": None,
-            "PostExpirationMargin-S": None,
-            "PreviousDayEquityWithLoanValue": None,
-            "PreviousDayEquityWithLoanValue-S": None,
-            "RealCurrency": None,
-            "RealizedPnL": None,
-            "RegTEquity": None,
-            "RegTEquity-S": None,
-            "RegTMargin": None,
-            "RegTMargin-S": None,
-            "SMA": None,
-            "SMA-S": None,
-            "SegmentTitle": None,
-            "StockMarketValue": None,
-            "TBondValue": None,
-            "TBillValue": None,
-            "TotalCashBalance": None,
-            "TotalCashValue": None,
-            "TotalCashValue-C": None,
-            "TotalCashValue-S": None,
-            "TradingType-S": None,
-            "UnrealizedPnL": None,
-            "WarrantValue": None,
-            "WhatIfPMEnable": None,
-            "last_update": None,
-        }
+            "AccountCode": np.nan,
+            "AccountOrGroup": np.nan,
+            "AccountReady": np.nan,
+            "AccountType": np.nan,
+            "AccruedCash": np.nan,
+            "AccruedCash-C": np.nan,
+            "AccruedCash-S": np.nan,
+            "AccruedDividend": np.nan,
+            "AccruedDividend-C": np.nan,
+            "AccruedDividend-S": np.nan,
+            "AvailableFunds": np.nan,
+            "AvailableFunds-C": np.nan,
+            "AvailableFunds-S": np.nan,
+            "Billable": np.nan,
+            "Billable-C": np.nan,
+            "Billable-S": np.nan,
+            "BuyingPower": np.nan,
+            "CashBalance": np.nan,
+            "CorporateBondValue": np.nan,
+            "Currency": np.nan,
+            "Cushion": np.nan,
+            "DayTradesRemaining": np.nan,
+            "DayTradesRemainingT+1": np.nan,
+            "DayTradesRemainingT+2": np.nan,
+            "DayTradesRemainingT+3": np.nan,
+            "DayTradesRemainingT+4": np.nan,
+            "EquityWithLoanValue": np.nan,
+            "EquityWithLoanValue-C": np.nan,
+            "EquityWithLoanValue-S": np.nan,
+            "ExcessLiquidity": np.nan,
+            "ExcessLiquidity-C": np.nan,
+            "ExcessLiquidity-S": np.nan,
+            "ExchangeRate": np.nan,
+            "FullAvailableFunds": np.nan,
+            "FullAvailableFunds-C": np.nan,
+            "FullAvailableFunds-S": np.nan,
+            "FullExcessLiquidity": np.nan,
+            "FullExcessLiquidity-C": np.nan,
+            "FullExcessLiquidity-S": np.nan,
+            "FullInitMarginReq": np.nan,
+            "FullInitMarginReq-C": np.nan,
+            "FullInitMarginReq-S": np.nan,
+            "FullMaintMarginReq": np.nan,
+            "FullMaintMarginReq-C": np.nan,
+            "FullMaintMarginReq-S": np.nan,
+            "FundValue": np.nan,
+            "FutureOptionValue": np.nan,
+            "FuturesPNL": np.nan,
+            "FxCashBalance": np.nan,
+            "GrossPositionValue": np.nan,
+            "GrossPositionValue-S": np.nan,
+            "IndianStockHaircut": np.nan,
+            "InitMarginReq": np.nan,
+            "InitMarginReq-C": np.nan,
+            "InitMarginReq-S": np.nan,
+            "IssuerOptionValue": np.nan,
+            "Leverage-S": np.nan,
+            "LookAheadNextChange": np.nan,
+            "LookAheadAvailableFunds": np.nan,
+            "LookAheadAvailableFunds-C": np.nan,
+            "LookAheadAvailableFunds-S": np.nan,
+            "LookAheadExcessLiquidity": np.nan,
+            "LookAheadExcessLiquidity-C": np.nan,
+            "LookAheadExcessLiquidity-S": np.nan,
+            "LookAheadInitMarginReq": np.nan,
+            "LookAheadInitMarginReq-C": np.nan,
+            "LookAheadInitMarginReq-S": np.nan,
+            "LookAheadMaintMarginReq": np.nan,
+            "LookAheadMaintMarginReq-C": np.nan,
+            "LookAheadMaintMarginReq-S": np.nan,
+            "MaintMarginReq": np.nan,
+            "MaintMarginReq-C": np.nan,
+            "MaintMarginReq-S": np.nan,
+            "MoneyMarketFundValue": np.nan,
+            "MutualFundValue": np.nan,
+            "NetDividend": np.nan,
+            "NetLiquidation": np.nan,
+            "NetLiquidation-C": np.nan,
+            "NetLiquidation-S": np.nan,
+            "NetLiquidationByCurrency": np.nan,
+            "OptionMarketValue": np.nan,
+            "PASharesValue": np.nan,
+            "PASharesValue-C": np.nan,
+            "PASharesValue-S": np.nan,
+            "PostExpirationExcess": np.nan,
+            "PostExpirationExcess-C": np.nan,
+            "PostExpirationExcess-S": np.nan,
+            "PostExpirationMargin": np.nan,
+            "PostExpirationMargin-C": np.nan,
+            "PostExpirationMargin-S": np.nan,
+            "PreviousDayEquityWithLoanValue": np.nan,
+            "PreviousDayEquityWithLoanValue-S": np.nan,
+            "RealCurrency": np.nan,
+            "RealizedPnL": np.nan,
+            "RegTEquity": np.nan,
+            "RegTEquity-S": np.nan,
+            "RegTMargin": np.nan,
+            "RegTMargin-S": np.nan,
+            "SMA": np.nan,
+            "SMA-S": np.nan,
+            "SegmentTitle": np.nan,
+            "StockMarketValue": np.nan,
+            "TBondValue": np.nan,
+            "TBillValue": np.nan,
+            "TotalCashBalance": np.nan,
+            "TotalCashValue": np.nan,
+            "TotalCashValue-C": np.nan,
+            "TotalCashValue-S": np.nan,
+            "TradingType-S": np.nan,
+            "UnrealizedPnL": np.nan,
+            "WarrantValue": np.nan,
+            "WhatIfPMEnable": np.nan,
+            "lastUpdate": np.nan,
+            "startValue": np.nan,
+            "TotalCashBalanceEvol": [], }
+        self.portfolio = {}
 
     # external use
-
-    def connect(self):
-        """
-        Opens a socket/connection between the IBAccount object and the
-        broker
-        """
-
-        paper_trading = get_settings("paper_trading")
-        port = 7496 if not paper_trading else 7497
-
-        log("connecting to the broker")
-        super().connect("127.0.0.1", port, 0)
-        time.sleep(2)
-        thread = threading.Thread(target=self.run, daemon=True)
-        thread.start()
-        start_time = time.time()
-        while True:
-            if isinstance(self.nextOrderId, int):
-                log("connection successful")
-                break
-            if time.time() - start_time < 30:
-                log("failed to connect")
-                stop_program()
-                break
 
     # internal use
     def init_order(self, orderId):
@@ -258,11 +236,11 @@ class IBApi(EWrapper, EClient):
     def nextValidId(self, orderId):
         super().nextValidId(orderId)
         self.nextOrderId = orderId
-        log(f"received new order id: {self.nextOrderId}")
+        log.log(f"received new order id: {self.nextOrderId}")
 
     def openOrder(self, orderId, contract, order, orderState):
         super().openOrder(orderId, contract, order, orderState)
-        log(f"received openOrder of order {orderId}")
+        log.log(f"received openOrder of order {orderId}")
         self.orders[orderId]["contract"] = contract
         self.orders[orderId]["order"] = order
         self.orders[orderId]["orderState"] = orderState
@@ -273,7 +251,7 @@ class IBApi(EWrapper, EClient):
         super().orderStatus(orderId, status, filled, remaining, avgFillPrice,
                             permId, parentId, lastFillPrice, clientId, whyHeld,
                             mktCapPrice)
-        log(f"received orderStatus of order {orderId}")
+        log.log(f"received orderStatus of order {orderId}")
         self.orders[orderId]["status"] = status
         self.orders[orderId]["filled"] = filled
         self.orders[orderId]["remaining"] = remaining
@@ -287,7 +265,7 @@ class IBApi(EWrapper, EClient):
 
     def execDetails(self, reqId, contract, execution):
         super().execDetails(reqId, contract, execution)
-        log(f"received execDetails of order {execution.orderId}")
+        log.log(f"received execDetails of order {execution.orderId}")
         self.orders[execution.orderId]["execution"] = execution
 
     def commissionReport(self, commissionReport):
@@ -296,14 +274,32 @@ class IBApi(EWrapper, EClient):
         for orderId in self.orders:
             if self.orders[orderId]["execution"].execId == commissionReport.execId:
                 self.orders[orderId]["commissionReport"] = commissionReport
-                log(f"received commission report for order {orderId}")
+                log.log(f"received commission report for order {orderId}")
                 found = True
         if not found:
-            log("received commission report but couldn't find for which order")
+            log.log("received commission report but couldn't find for which order")
 
     def updateAccountValue(self, key, val, currency, accountName):
         super().updateAccountValue(key, val, currency, accountName)
         self.account[key] = (val, currency)
+        if key == "TotalCashBalance":
+            value = (time.time(), val)
+            self.account["TotalCashBalanceEvol"].append(value)
+            if self.account["startValue"] == None:
+                self.account["startValue"] = self.account["TotalCashBalance"]
+
+    def updatePortfolio(self, contract, position, marketPrice, marketValue,
+                        averageCost, unrealizedPNL, realizedPNL, accountName):
+        symbol = f"{contract.secType}/{contract.currency}"
+        self.portfolio[symbol] = {
+            "contract": contract,
+            "position": position,
+            "marketPrice": marketPrice,
+            "marketValue": marketValue,
+            "averageCost": averageCost,
+            "unrealizedPNL": unrealizedPNL,
+            "realizedPNL": realizedPNL,
+            "accountName": accountName}
 
     def updateAccountTime(self, timeStamp):
         super().updateAccountTime(timeStamp)
@@ -311,13 +307,11 @@ class IBApi(EWrapper, EClient):
 
     def accountDownloadEnd(self, accountName: str):
         super().accountDownloadEnd(accountName)
-        log("updated account portfolio data")
+        log.log("updated account portfolio data")
 
     def error(self, id, errorCode, errorMsg):
         super().error(id, errorCode, errorMsg)
-        if id != -1:
-            log(f"ERROR : {errorCode} {errorMsg}", print_l=False)
-            # stop_program()
+        log.log(f"{errorCode} {errorMsg}", level="ERROR")
 
     def historicalData(self, reqId, bar):
         if len(bar.date) == 8:

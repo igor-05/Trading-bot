@@ -20,16 +20,6 @@ def get_contract(symbol):
     contract.exchange = "IDEALPRO"  # get_settings("contract_exchange")
     return contract
 
-
-def get_option_contract(symbol):
-    """Returns a forex option contract.
-
-    Args:
-        symbol (str): The symbol of the contract (i.e "EUR/USD"). 
-    """
-    pass
-
-
 # internal use :
 
 # program :
