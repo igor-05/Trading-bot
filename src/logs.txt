@@ -707,3 +707,798 @@ of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
 2021-07-12 21:33:34.201473 : INFO : all data for EUR/USD has been retrieved
 2021-07-12 23:09:05.434432 : ERROR : 2103 Market data farm connection is broken:cashfarm
 2021-07-12 23:09:06.328695 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-13 18:02:58.076387 : INFO : connecting to the broker
+2021-07-13 18:03:00.619017 : INFO : received new order id: 1
+2021-07-13 18:03:00.619285 : INFO : connection successful
+2021-07-13 18:03:01.120787 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-13 18:03:01.621983 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-13 18:03:02.123147 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-13 18:03:02.624322 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-13 18:03:03.121732 : INFO : subscribing to account updates
+2021-07-13 18:03:03.124995 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-13 18:03:03.622796 : INFO : purging outdated market data
+2021-07-13 18:03:03.625946 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-13 18:03:04.123616 : INFO : asking data for EUR/USD
+2021-07-13 18:03:04.131843 : INFO : updated account portfolio data
+2021-07-13 18:03:04.624819 : INFO : waiting for EUR/USD data
+2021-07-13 18:03:11.304105 : INFO : all data for EUR/USD has been retrieved
+2021-07-13 18:04:36.806765 : INFO : connecting to the broker
+2021-07-13 18:04:39.323172 : INFO : connection successful
+2021-07-13 18:04:41.825858 : INFO : subscribing to account updates
+2021-07-13 18:04:42.328298 : ERROR : 504 Not connected
+2021-07-13 18:04:42.829512 : INFO : purging outdated market data
+2021-07-13 18:04:43.330630 : INFO : asking data for EUR/USD
+2021-07-13 18:04:43.832408 : ERROR : 504 Not connected
+2021-07-13 18:04:44.333982 : ERROR : 504 Not connected
+2021-07-13 18:04:44.834853 : INFO : waiting for EUR/USD data
+2021-07-13 18:06:00.127444 : INFO : connecting to the broker
+2021-07-13 18:06:02.671073 : INFO : connection successful
+2021-07-13 18:06:02.671949 : INFO : received new order id: 1
+2021-07-13 18:06:03.173953 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-13 18:06:03.675310 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-13 18:06:04.176704 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-13 18:06:04.678703 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-13 18:06:05.175947 : INFO : subscribing to account updates
+2021-07-13 18:06:05.180067 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-13 18:06:05.677273 : INFO : purging outdated market data
+2021-07-13 18:06:05.681837 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-13 18:06:06.177932 : INFO : asking data for EUR/USD
+2021-07-13 18:06:06.203524 : INFO : updated account portfolio data
+2021-07-13 18:06:06.679611 : INFO : waiting for EUR/USD data
+2021-07-13 18:06:12.457544 : INFO : all data for EUR/USD has been retrieved
+2021-07-13 18:08:34.178581 : INFO : connecting to the broker
+2021-07-13 18:08:36.698657 : INFO : received new order id: 1
+2021-07-13 18:08:36.698717 : INFO : connection successful
+2021-07-13 18:08:37.200218 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-13 18:08:37.701625 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-13 18:08:38.202832 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-13 18:08:38.703963 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-13 18:08:39.201686 : INFO : subscribing to account updates
+2021-07-13 18:08:39.205210 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-13 18:08:39.703168 : INFO : purging outdated market data
+2021-07-13 18:08:39.706291 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-13 18:08:40.204332 : INFO : asking data for EUR/USD
+2021-07-13 18:08:40.220622 : INFO : updated account portfolio data
+2021-07-13 18:08:40.706016 : INFO : waiting for EUR/USD data
+2021-07-13 18:09:26.078636 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 20:04:42.233860 : INFO : connecting to the broker
+2021-07-14 20:04:42.736988 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-14 20:06:59.044347 : INFO : connecting to the broker
+2021-07-14 20:07:01.589892 : INFO : connection successful
+2021-07-14 20:07:01.591425 : INFO : received new order id: 1
+2021-07-14 20:07:02.094401 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 20:07:02.595801 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 20:07:03.097881 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 20:07:03.599527 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 20:07:04.092738 : INFO : subscribing to account updates
+2021-07-14 20:07:04.101483 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 20:07:04.594373 : INFO : purging outdated market data
+2021-07-14 20:07:04.603300 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 20:07:05.095531 : INFO : asking data for EUR/USD
+2021-07-14 20:07:05.123717 : INFO : updated account portfolio data
+2021-07-14 20:07:05.597349 : INFO : waiting for EUR/USD data
+2021-07-14 20:07:15.265544 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 20:42:23.385483 : INFO : connecting to the broker
+2021-07-14 20:42:25.906888 : INFO : received new order id: 1
+2021-07-14 20:42:25.907023 : INFO : connection successful
+2021-07-14 20:42:26.410578 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 20:42:26.912203 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 20:42:27.414851 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 20:42:27.916685 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 20:42:28.412052 : INFO : subscribing to account updates
+2021-07-14 20:42:28.418907 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 20:42:28.913596 : INFO : purging outdated market data
+2021-07-14 20:42:28.921782 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 20:42:29.415557 : INFO : asking data for EUR/USD
+2021-07-14 20:42:29.443906 : INFO : updated account portfolio data
+2021-07-14 20:42:29.917466 : INFO : waiting for EUR/USD data
+2021-07-14 20:42:38.751463 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 20:43:56.086308 : INFO : connecting to the broker
+2021-07-14 20:43:58.608185 : INFO : connection successful
+2021-07-14 20:43:58.609077 : INFO : received new order id: 1
+2021-07-14 20:43:59.112327 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 20:43:59.614750 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 20:44:00.117449 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 20:44:00.618690 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 20:44:01.112093 : INFO : subscribing to account updates
+2021-07-14 20:44:01.120562 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 20:44:01.614477 : INFO : purging outdated market data
+2021-07-14 20:44:01.623080 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 20:44:02.115728 : INFO : asking data for EUR/USD
+2021-07-14 20:44:02.160498 : INFO : updated account portfolio data
+2021-07-14 20:44:02.617770 : INFO : waiting for EUR/USD data
+2021-07-14 20:44:11.269388 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 21:07:13.295820 : INFO : connecting to the broker
+2021-07-14 21:07:15.806993 : INFO : connection successful
+2021-07-14 21:07:15.808403 : INFO : received new order id: 1
+2021-07-14 21:07:16.312203 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 21:07:16.813624 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 21:07:17.314641 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 21:07:17.816127 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 21:07:18.310181 : INFO : subscribing to account updates
+2021-07-14 21:07:18.317643 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 21:07:18.811832 : INFO : purging outdated market data
+2021-07-14 21:07:18.818993 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 21:07:19.312947 : INFO : asking data for EUR/USD
+2021-07-14 21:07:19.351530 : INFO : updated account portfolio data
+2021-07-14 21:07:19.814416 : INFO : waiting for EUR/USD data
+2021-07-14 21:07:28.458323 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 21:10:46.755233 : INFO : connecting to the broker
+2021-07-14 21:10:49.279463 : INFO : received new order id: 1
+2021-07-14 21:10:49.279576 : INFO : connection successful
+2021-07-14 21:10:49.782498 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 21:10:50.283959 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 21:10:50.785615 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 21:10:51.287163 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 21:10:51.784834 : INFO : subscribing to account updates
+2021-07-14 21:10:51.789115 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 21:10:52.286344 : INFO : purging outdated market data
+2021-07-14 21:10:52.295612 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 21:10:52.787726 : INFO : asking data for EUR/USD
+2021-07-14 21:10:52.819608 : INFO : updated account portfolio data
+2021-07-14 21:10:53.289291 : INFO : waiting for EUR/USD data
+2021-07-14 21:11:02.038548 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 21:13:26.785132 : INFO : connecting to the broker
+2021-07-14 21:13:29.299910 : INFO : connection successful
+2021-07-14 21:13:29.300762 : INFO : received new order id: 1
+2021-07-14 21:13:29.803861 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 21:13:30.305297 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 21:13:30.806541 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 21:13:31.307853 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 21:13:31.802049 : INFO : subscribing to account updates
+2021-07-14 21:13:31.810593 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 21:13:32.303573 : INFO : purging outdated market data
+2021-07-14 21:13:32.314779 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 21:13:32.805624 : INFO : asking data for EUR/USD
+2021-07-14 21:13:32.836843 : INFO : updated account portfolio data
+2021-07-14 21:13:33.306408 : INFO : waiting for EUR/USD data
+2021-07-14 21:13:41.658298 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 21:17:12.268187 : INFO : connecting to the broker
+2021-07-14 21:17:14.795392 : INFO : received new order id: 1
+2021-07-14 21:17:14.795491 : INFO : connection successful
+2021-07-14 21:17:15.298951 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 21:17:15.800264 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 21:17:16.300907 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 21:17:16.802236 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 21:17:17.297999 : INFO : subscribing to account updates
+2021-07-14 21:17:17.303279 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 21:17:17.799080 : INFO : purging outdated market data
+2021-07-14 21:17:17.804285 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 21:17:18.299975 : INFO : asking data for EUR/USD
+2021-07-14 21:17:18.324166 : INFO : updated account portfolio data
+2021-07-14 21:17:18.801390 : INFO : waiting for EUR/USD data
+2021-07-14 21:17:28.030817 : INFO : all data for EUR/USD has been retrieved
+2021-07-14 21:21:08.351718 : INFO : purging outdated market data
+2021-07-14 21:21:08.854058 : INFO : asking data for EUR/USD
+2021-07-14 21:21:09.355577 : INFO : waiting for EUR/USD data
+2021-07-14 21:23:24.155265 : INFO : connecting to the broker
+2021-07-14 21:23:26.675048 : INFO : connection successful
+2021-07-14 21:23:26.676716 : INFO : received new order id: 1
+2021-07-14 21:23:27.179867 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-14 21:23:27.681654 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-14 21:23:28.183450 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-14 21:23:28.684850 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-14 21:23:29.178179 : INFO : subscribing to account updates
+2021-07-14 21:23:29.186492 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-14 21:23:29.680286 : INFO : purging outdated market data
+2021-07-14 21:23:29.687987 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-14 21:23:30.181918 : INFO : asking data for EUR/USD
+2021-07-14 21:23:30.207666 : INFO : updated account portfolio data
+2021-07-14 21:23:30.683683 : INFO : waiting for EUR/USD data
+2021-07-14 21:23:31.184575 : INFO : all data for EUR/USD has been retrieved
+2021-07-15 21:49:00.210976 : INFO : connecting to the broker
+2021-07-15 21:49:02.759161 : INFO : connection successful
+2021-07-15 21:49:02.760246 : INFO : received new order id: 1
+2021-07-15 21:49:03.262775 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-15 21:49:03.764440 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-15 21:49:04.265841 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-15 21:49:04.768353 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-15 21:49:05.261278 : INFO : subscribing to account updates
+2021-07-15 21:49:05.269808 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-15 21:49:05.762877 : INFO : purging outdated market data
+2021-07-15 21:49:05.771289 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-15 21:49:06.264212 : INFO : asking data for EUR/USD
+2021-07-15 21:49:06.309058 : INFO : updated account portfolio data
+2021-07-15 21:49:06.765901 : INFO : waiting for EUR/USD data
+2021-07-15 21:49:07.266939 : INFO : all data for EUR/USD has been retrieved
+2021-07-15 21:51:40.915373 : INFO : connecting to the broker
+2021-07-15 21:51:43.429092 : INFO : connection successful
+2021-07-15 21:51:43.429811 : INFO : received new order id: 1
+2021-07-15 21:51:43.932738 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-15 21:51:44.434363 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-15 21:51:44.936046 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-15 21:51:45.437675 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-15 21:51:45.934782 : INFO : subscribing to account updates
+2021-07-15 21:51:45.939371 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-15 21:51:46.436532 : INFO : purging outdated market data
+2021-07-15 21:51:46.443673 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-15 21:51:46.937704 : INFO : asking data for EUR/USD
+2021-07-15 21:51:46.964418 : INFO : updated account portfolio data
+2021-07-15 21:51:47.439289 : INFO : waiting for EUR/USD data
+2021-07-15 21:51:47.940252 : INFO : all data for EUR/USD has been retrieved
+2021-07-15 21:52:24.267707 : INFO : connecting to the broker
+2021-07-15 21:52:26.787893 : INFO : connection successful
+2021-07-15 21:52:26.787778 : INFO : received new order id: 1
+2021-07-15 21:52:27.291361 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-15 21:52:27.792921 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-15 21:52:28.293948 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-15 21:52:28.795433 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-15 21:52:29.291379 : INFO : subscribing to account updates
+2021-07-15 21:52:29.297142 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-15 21:52:29.792666 : INFO : purging outdated market data
+2021-07-15 21:52:29.806314 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-15 21:52:30.293681 : INFO : asking data for EUR/USD
+2021-07-15 21:52:30.331788 : INFO : updated account portfolio data
+2021-07-15 21:52:30.795172 : INFO : waiting for EUR/USD data
+2021-07-15 21:52:31.296031 : INFO : all data for EUR/USD has been retrieved
+2021-07-15 21:54:45.343351 : INFO : connecting to the broker
+2021-07-15 21:54:47.862101 : INFO : received new order id: 1
+2021-07-15 21:54:47.862553 : INFO : connection successful
+2021-07-15 21:54:48.365544 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-15 21:54:48.867263 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-15 21:54:49.368861 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-15 21:54:49.870599 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-15 21:54:50.367893 : INFO : subscribing to account updates
+2021-07-15 21:54:50.372102 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-15 21:54:50.869571 : INFO : purging outdated market data
+2021-07-15 21:54:50.873504 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-15 21:54:51.370835 : INFO : asking data for EUR/USD
+2021-07-15 21:54:51.396637 : INFO : updated account portfolio data
+2021-07-15 21:54:51.872539 : INFO : waiting for EUR/USD data
+2021-07-15 21:54:52.373376 : INFO : all data for EUR/USD has been retrieved
+2021-07-15 21:59:47.434190 : INFO : purging outdated market data
+2021-07-15 21:59:47.935484 : INFO : asking data for EUR/USD
+2021-07-15 21:59:48.436932 : INFO : waiting for EUR/USD data
+2021-07-15 22:01:11.418463 : INFO : connecting to the broker
+2021-07-15 22:01:13.927636 : INFO : connection successful
+2021-07-15 22:01:13.928823 : INFO : received new order id: 1
+2021-07-15 22:01:14.433639 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-15 22:01:14.935315 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-15 22:01:15.436781 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-15 22:01:15.937855 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-15 22:01:16.432649 : INFO : subscribing to account updates
+2021-07-15 22:01:16.439281 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-15 22:01:16.934360 : INFO : purging outdated market data
+2021-07-15 22:01:16.943700 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-15 22:01:17.435865 : INFO : asking data for EUR/USD
+2021-07-15 22:01:17.466206 : INFO : updated account portfolio data
+2021-07-15 22:01:17.937414 : INFO : waiting for EUR/USD data
+2021-07-15 22:01:18.438324 : INFO : all data for EUR/USD has been retrieved
+2021-07-15 22:06:43.402154 : INFO : connecting to the broker
+2021-07-15 22:06:45.919681 : INFO : connection successful
+2021-07-15 22:06:45.920309 : INFO : received new order id: 1
+2021-07-15 22:06:46.422759 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-15 22:06:46.924368 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-15 22:06:47.425792 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-15 22:06:47.927279 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-15 22:06:48.425082 : INFO : subscribing to account updates
+2021-07-15 22:06:48.430520 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-15 22:06:48.926721 : INFO : purging outdated market data
+2021-07-15 22:06:48.939179 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-15 22:06:49.428703 : INFO : asking data for EUR/USD
+2021-07-15 22:06:49.455297 : INFO : updated account portfolio data
+2021-07-15 22:06:49.931419 : INFO : waiting for EUR/USD data
+2021-07-15 22:06:50.432442 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 18:08:45.122598 : INFO : connecting to the broker
+2021-07-16 18:08:47.669250 : INFO : received new order id: 1
+2021-07-16 18:08:47.668831 : INFO : connection successful
+2021-07-16 18:08:48.172374 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 18:08:48.674129 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 18:08:49.175444 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 18:08:49.676727 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 18:08:50.172010 : INFO : subscribing to account updates
+2021-07-16 18:08:50.177777 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 18:08:50.673951 : INFO : purging outdated market data
+2021-07-16 18:08:50.678934 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 18:08:51.175368 : INFO : asking data for EUR/USD
+2021-07-16 18:08:51.194271 : INFO : updated account portfolio data
+2021-07-16 18:08:51.677229 : INFO : waiting for EUR/USD data
+2021-07-16 18:08:52.178049 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 19:32:13.302947 : INFO : connecting to the broker
+2021-07-16 19:32:15.820874 : INFO : received new order id: 1
+2021-07-16 19:32:15.820110 : INFO : connection successful
+2021-07-16 19:32:16.324296 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 19:32:16.826136 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 19:32:17.327744 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 19:32:17.829422 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 19:32:18.324498 : INFO : subscribing to account updates
+2021-07-16 19:32:18.331385 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 19:32:18.826044 : INFO : purging outdated market data
+2021-07-16 19:32:18.832973 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 19:32:19.327329 : INFO : asking data for EUR/USD
+2021-07-16 19:32:19.348405 : INFO : updated account portfolio data
+2021-07-16 19:32:19.828944 : INFO : waiting for EUR/USD data
+2021-07-16 19:32:20.329977 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 22:04:22.215474 : INFO : connecting to the broker
+2021-07-16 22:04:24.734238 : INFO : connection successful
+2021-07-16 22:04:24.734523 : INFO : received new order id: 1
+2021-07-16 22:04:25.238029 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 22:04:25.739652 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 22:04:26.240900 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 22:04:26.741983 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 22:04:27.236677 : INFO : subscribing to account updates
+2021-07-16 22:04:27.243138 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 22:04:27.737813 : INFO : purging outdated market data
+2021-07-16 22:04:27.744795 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 22:04:28.238369 : INFO : asking data for EUR/USD
+2021-07-16 22:04:28.264691 : INFO : updated account portfolio data
+2021-07-16 22:04:28.739391 : INFO : waiting for EUR/USD data
+2021-07-16 22:04:29.240105 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 22:06:25.366011 : INFO : connecting to the broker
+2021-07-16 22:06:27.889100 : INFO : received new order id: 1
+2021-07-16 22:06:27.889642 : INFO : connection successful
+2021-07-16 22:06:28.392161 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 22:06:28.893371 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 22:06:29.394852 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 22:06:29.896692 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 22:06:30.392770 : INFO : subscribing to account updates
+2021-07-16 22:06:30.399110 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 22:06:30.894308 : INFO : purging outdated market data
+2021-07-16 22:06:30.907513 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 22:06:31.395510 : INFO : asking data for EUR/USD
+2021-07-16 22:06:31.425424 : INFO : updated account portfolio data
+2021-07-16 22:06:31.897418 : INFO : waiting for EUR/USD data
+2021-07-16 22:06:32.398351 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 22:19:20.627390 : INFO : connecting to the broker
+2021-07-16 22:19:23.137486 : INFO : received new order id: 1
+2021-07-16 22:19:23.137790 : INFO : connection successful
+2021-07-16 22:19:23.640746 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 22:19:24.142317 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 22:19:24.643980 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 22:19:25.145434 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 22:19:25.640756 : INFO : subscribing to account updates
+2021-07-16 22:19:25.646858 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 22:19:26.141859 : INFO : purging outdated market data
+2021-07-16 22:19:26.148405 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 22:19:26.643348 : INFO : asking data for EUR/USD
+2021-07-16 22:19:26.666793 : INFO : updated account portfolio data
+2021-07-16 22:19:27.145077 : INFO : waiting for EUR/USD data
+2021-07-16 22:19:27.646116 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 22:22:58.239321 : INFO : connecting to the broker
+2021-07-16 22:23:00.751335 : INFO : received new order id: 1
+2021-07-16 22:23:00.751629 : INFO : connection successful
+2021-07-16 22:23:01.255023 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 22:23:01.756529 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 22:23:02.258067 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 22:23:02.759329 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 22:23:03.256605 : INFO : subscribing to account updates
+2021-07-16 22:23:03.260420 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 22:23:03.758002 : INFO : purging outdated market data
+2021-07-16 22:23:03.768385 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 22:23:04.259163 : INFO : asking data for EUR/USD
+2021-07-16 22:23:04.291020 : INFO : updated account portfolio data
+2021-07-16 22:23:04.760711 : INFO : waiting for EUR/USD data
+2021-07-16 22:23:05.261654 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 22:28:40.173688 : INFO : connecting to the broker
+2021-07-16 22:28:42.687637 : INFO : received new order id: 1
+2021-07-16 22:28:42.687894 : INFO : connection successful
+2021-07-16 22:28:43.190605 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 22:28:43.692142 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 22:28:44.193415 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 22:28:44.694955 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 22:28:45.190941 : INFO : subscribing to account updates
+2021-07-16 22:28:45.196426 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 22:28:45.692794 : INFO : purging outdated market data
+2021-07-16 22:28:45.700136 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 22:28:46.194086 : INFO : asking data for EUR/USD
+2021-07-16 22:28:46.215533 : INFO : updated account portfolio data
+2021-07-16 22:28:46.695672 : INFO : waiting for EUR/USD data
+2021-07-16 22:28:47.196676 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 22:35:43.869702 : INFO : connecting to the broker
+2021-07-16 22:35:46.381031 : INFO : connection successful
+2021-07-16 22:35:46.380970 : INFO : received new order id: 1
+2021-07-16 22:35:46.881967 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 22:35:47.383635 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 22:35:47.885195 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 22:35:48.386368 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 22:35:48.883793 : INFO : subscribing to account updates
+2021-07-16 22:35:48.887538 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 22:35:49.384942 : INFO : purging outdated market data
+2021-07-16 22:35:49.388719 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 22:35:49.886066 : INFO : asking data for EUR/USD
+2021-07-16 22:35:49.898133 : INFO : updated account portfolio data
+2021-07-16 22:35:50.388022 : INFO : waiting for EUR/USD data
+2021-07-16 22:35:50.888616 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 22:37:46.582011 : INFO : connecting to the broker
+2021-07-16 22:37:49.090509 : INFO : connection successful
+2021-07-16 22:37:49.090458 : INFO : received new order id: 1
+2021-07-16 22:37:49.593132 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-16 22:37:50.095147 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 22:37:50.597624 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-16 22:37:51.100465 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-16 22:37:51.592747 : INFO : subscribing to account updates
+2021-07-16 22:37:51.601936 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-16 22:37:52.093836 : INFO : purging outdated market data
+2021-07-16 22:37:52.103283 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-16 22:37:52.594842 : INFO : asking data for EUR/USD
+2021-07-16 22:37:52.615177 : INFO : updated account portfolio data
+2021-07-16 22:37:53.096542 : INFO : waiting for EUR/USD data
+2021-07-16 22:37:53.597850 : INFO : all data for EUR/USD has been retrieved
+2021-07-16 23:09:05.088101 : ERROR : 2103 Market data farm connection is broken:cashfarm
+2021-07-16 23:09:07.222117 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-16 23:45:01.337367 : INFO : connecting to the broker
+2021-07-16 23:45:01.838436 : ERROR : 502 Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket EClients" 
+is enabled and connection port is the same as "Socket Port" on the 
+TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: 
+TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations 
+of version 954.1 or newer:  TWS: 7497; IB Gateway: 4002
+2021-07-16 23:45:04.342347 : INFO : connection successful
+2021-07-16 23:45:06.845385 : INFO : subscribing to account updates
+2021-07-16 23:45:07.346634 : ERROR : 504 Not connected
+2021-07-16 23:45:07.847304 : INFO : purging outdated market data
+2021-07-16 23:45:08.348357 : INFO : asking data for EUR/USD
+2021-07-16 23:45:08.849637 : ERROR : 504 Not connected
+2021-07-16 23:45:09.350639 : INFO : waiting for EUR/USD data
+2021-07-17 23:56:13.079277 : INFO : connecting to the broker
+2021-07-17 23:56:15.621306 : INFO : received new order id: 1
+2021-07-17 23:56:15.621568 : INFO : connection successful
+2021-07-17 23:56:16.123029 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-17 23:56:16.624322 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-17 23:56:17.125432 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-17 23:56:17.626724 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-17 23:56:18.124653 : INFO : subscribing to account updates
+2021-07-17 23:56:18.127807 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-17 23:56:18.625916 : INFO : purging outdated market data
+2021-07-17 23:56:18.628944 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-17 23:56:19.126630 : INFO : asking data for EUR/USD
+2021-07-17 23:56:19.134266 : INFO : updated account portfolio data
+2021-07-17 23:56:19.627878 : INFO : waiting for EUR/USD data
+2021-07-17 23:56:20.128937 : INFO : all data for EUR/USD has been retrieved
+2021-07-17 23:57:32.783419 : INFO : connecting to the broker
+2021-07-17 23:57:35.305444 : INFO : connection successful
+2021-07-17 23:57:37.808763 : INFO : subscribing to account updates
+2021-07-17 23:57:38.311419 : ERROR : 504 Not connected
+2021-07-17 23:57:38.812623 : INFO : purging outdated market data
+2021-07-17 23:57:39.313850 : INFO : asking data for EUR/USD
+2021-07-17 23:57:39.815325 : ERROR : 504 Not connected
+2021-07-17 23:57:40.316314 : INFO : waiting for EUR/USD data
+2021-07-17 23:58:25.757403 : INFO : connecting to the broker
+2021-07-17 23:58:28.290069 : INFO : connection successful
+2021-07-17 23:58:28.291252 : INFO : received new order id: 1
+2021-07-17 23:58:28.794344 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-17 23:58:29.296154 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-17 23:58:29.797882 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-17 23:58:30.299427 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-17 23:58:30.796779 : INFO : subscribing to account updates
+2021-07-17 23:58:30.801038 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-17 23:58:31.298628 : INFO : purging outdated market data
+2021-07-17 23:58:31.302153 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-17 23:58:31.799744 : INFO : asking data for EUR/USD
+2021-07-17 23:58:31.835331 : INFO : updated account portfolio data
+2021-07-17 23:58:32.301341 : INFO : waiting for EUR/USD data
+2021-07-17 23:58:32.802342 : INFO : all data for EUR/USD has been retrieved
+2021-07-17 23:59:05.142245 : INFO : connecting to the broker
+2021-07-17 23:59:07.655813 : INFO : connection successful
+2021-07-17 23:59:07.656765 : INFO : received new order id: 1
+2021-07-17 23:59:08.159720 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-17 23:59:08.661273 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-17 23:59:09.162968 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-17 23:59:09.664288 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-17 23:59:10.158560 : INFO : subscribing to account updates
+2021-07-17 23:59:10.165612 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-17 23:59:10.660216 : INFO : purging outdated market data
+2021-07-17 23:59:10.667938 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-17 23:59:11.161483 : INFO : asking data for EUR/USD
+2021-07-17 23:59:11.185930 : INFO : updated account portfolio data
+2021-07-17 23:59:11.663165 : INFO : waiting for EUR/USD data
+2021-07-17 23:59:12.164142 : INFO : all data for EUR/USD has been retrieved
+2021-07-17 23:59:28.148325 : INFO : connecting to the broker
+2021-07-17 23:59:30.662558 : INFO : received new order id: 1
+2021-07-17 23:59:30.662824 : INFO : connection successful
+2021-07-17 23:59:31.165843 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-17 23:59:31.667482 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-17 23:59:32.169197 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-17 23:59:32.670988 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-17 23:59:33.168079 : INFO : subscribing to account updates
+2021-07-17 23:59:33.172439 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-17 23:59:33.669978 : INFO : purging outdated market data
+2021-07-17 23:59:33.675648 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-17 23:59:34.171293 : INFO : asking data for EUR/USD
+2021-07-17 23:59:34.196207 : INFO : updated account portfolio data
+2021-07-17 23:59:34.673008 : INFO : waiting for EUR/USD data
+2021-07-17 23:59:35.174010 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:00:45.914198 : INFO : connecting to the broker
+2021-07-18 00:00:48.428773 : INFO : connection successful
+2021-07-18 00:00:48.429848 : INFO : received new order id: 1
+2021-07-18 00:00:48.932339 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:00:49.434014 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:00:49.935684 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:00:50.437333 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:00:50.930490 : INFO : subscribing to account updates
+2021-07-18 00:00:50.938853 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:00:51.432173 : INFO : purging outdated market data
+2021-07-18 00:00:51.439972 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:00:51.933528 : INFO : asking data for EUR/USD
+2021-07-18 00:00:51.955345 : INFO : updated account portfolio data
+2021-07-18 00:00:52.435160 : INFO : waiting for EUR/USD data
+2021-07-18 00:00:52.936221 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:30:28.451355 : INFO : connecting to the broker
+2021-07-18 00:30:30.957152 : INFO : received new order id: 1
+2021-07-18 00:30:30.957441 : INFO : connection successful
+2021-07-18 00:30:31.458841 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:30:31.960077 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:30:32.461212 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:30:32.962436 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:30:33.461152 : INFO : subscribing to account updates
+2021-07-18 00:30:33.463544 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:30:33.962636 : INFO : purging outdated market data
+2021-07-18 00:30:33.964665 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:30:34.463552 : INFO : asking data for EUR/USD
+2021-07-18 00:30:34.474762 : INFO : updated account portfolio data
+2021-07-18 00:30:34.964826 : INFO : waiting for EUR/USD data
+2021-07-18 00:30:35.465827 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:33:43.027406 : INFO : connecting to the broker
+2021-07-18 00:33:45.536159 : INFO : received new order id: 1
+2021-07-18 00:33:45.536285 : INFO : connection successful
+2021-07-18 00:33:46.038186 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:33:46.539449 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:33:47.040608 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:33:47.541629 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:33:48.038498 : INFO : subscribing to account updates
+2021-07-18 00:33:48.042717 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:33:48.539566 : INFO : purging outdated market data
+2021-07-18 00:33:48.546770 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:33:49.040425 : INFO : asking data for EUR/USD
+2021-07-18 00:33:49.054210 : INFO : updated account portfolio data
+2021-07-18 00:33:49.541361 : INFO : waiting for EUR/USD data
+2021-07-18 00:33:50.042290 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:36:15.020512 : INFO : connecting to the broker
+2021-07-18 00:36:17.531041 : INFO : received new order id: 1
+2021-07-18 00:36:17.531256 : INFO : connection successful
+2021-07-18 00:36:18.032355 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:36:18.533566 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:36:19.034748 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:36:19.535826 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:36:20.034502 : INFO : subscribing to account updates
+2021-07-18 00:36:20.036879 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:36:20.535585 : INFO : purging outdated market data
+2021-07-18 00:36:20.538513 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:36:21.036492 : INFO : asking data for EUR/USD
+2021-07-18 00:36:21.046831 : INFO : updated account portfolio data
+2021-07-18 00:36:21.538407 : INFO : waiting for EUR/USD data
+2021-07-18 00:36:22.039463 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:37:15.626280 : INFO : connecting to the broker
+2021-07-18 00:37:18.148132 : INFO : connection successful
+2021-07-18 00:37:20.651837 : INFO : subscribing to account updates
+2021-07-18 00:37:21.155205 : ERROR : 504 Not connected
+2021-07-18 00:37:21.656298 : INFO : purging outdated market data
+2021-07-18 00:37:22.157434 : INFO : asking data for EUR/USD
+2021-07-18 00:37:22.659094 : ERROR : 504 Not connected
+2021-07-18 00:37:23.159973 : INFO : waiting for EUR/USD data
+2021-07-18 00:37:27.378422 : INFO : connecting to the broker
+2021-07-18 00:37:29.889638 : INFO : received new order id: 1
+2021-07-18 00:37:29.889704 : INFO : connection successful
+2021-07-18 00:37:30.390869 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:37:30.891979 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:37:31.393071 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:37:31.894003 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:37:32.393008 : INFO : subscribing to account updates
+2021-07-18 00:37:32.394783 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:37:32.894121 : INFO : purging outdated market data
+2021-07-18 00:37:32.895840 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:37:33.394634 : INFO : asking data for EUR/USD
+2021-07-18 00:37:33.405549 : INFO : updated account portfolio data
+2021-07-18 00:37:33.895720 : INFO : waiting for EUR/USD data
+2021-07-18 00:37:34.396619 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:39:00.422086 : INFO : connecting to the broker
+2021-07-18 00:39:02.933260 : INFO : received new order id: 1
+2021-07-18 00:39:02.933521 : INFO : connection successful
+2021-07-18 00:39:03.434700 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:39:03.935884 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:39:04.437079 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:39:04.938261 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:39:05.437176 : INFO : subscribing to account updates
+2021-07-18 00:39:05.439424 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:39:05.938261 : INFO : purging outdated market data
+2021-07-18 00:39:05.951368 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:39:06.438682 : INFO : asking data for EUR/USD
+2021-07-18 00:39:06.456267 : INFO : updated account portfolio data
+2021-07-18 00:39:06.939750 : INFO : waiting for EUR/USD data
+2021-07-18 00:39:07.440551 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:39:35.536390 : INFO : connecting to the broker
+2021-07-18 00:39:38.044081 : INFO : received new order id: 1
+2021-07-18 00:39:38.044161 : INFO : connection successful
+2021-07-18 00:39:38.545523 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:39:39.046930 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:39:39.547970 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:39:40.049394 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:39:40.546629 : INFO : subscribing to account updates
+2021-07-18 00:39:40.550646 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:39:41.047733 : INFO : purging outdated market data
+2021-07-18 00:39:41.051785 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:39:41.548675 : INFO : asking data for EUR/USD
+2021-07-18 00:39:41.562766 : INFO : updated account portfolio data
+2021-07-18 00:39:42.049693 : INFO : waiting for EUR/USD data
+2021-07-18 00:39:42.550522 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:49:37.857103 : INFO : connecting to the broker
+2021-07-18 00:49:40.367580 : INFO : connection successful
+2021-07-18 00:49:42.870686 : INFO : subscribing to account updates
+2021-07-18 00:49:43.373151 : ERROR : 504 Not connected
+2021-07-18 00:49:43.874222 : INFO : purging outdated market data
+2021-07-18 00:49:44.375635 : INFO : asking data for EUR/USD
+2021-07-18 00:49:44.877326 : ERROR : 504 Not connected
+2021-07-18 00:49:45.378308 : INFO : waiting for EUR/USD data
+2021-07-18 00:51:16.687757 : INFO : connecting to the broker
+2021-07-18 00:51:19.194973 : INFO : received new order id: 1
+2021-07-18 00:51:19.195119 : INFO : connection successful
+2021-07-18 00:51:19.696274 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:51:20.197455 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:51:20.698539 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:51:21.199680 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:51:21.697892 : INFO : subscribing to account updates
+2021-07-18 00:51:21.700776 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:51:22.199159 : INFO : purging outdated market data
+2021-07-18 00:51:22.206622 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:51:22.700328 : INFO : asking data for EUR/USD
+2021-07-18 00:51:22.710378 : INFO : updated account portfolio data
+2021-07-18 00:51:23.201552 : INFO : waiting for EUR/USD data
+2021-07-18 00:51:23.702538 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:53:16.783249 : INFO : connecting to the broker
+2021-07-18 00:53:19.292066 : INFO : received new order id: 1
+2021-07-18 00:53:19.292316 : INFO : connection successful
+2021-07-18 00:53:19.793696 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:53:20.295026 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:53:20.796508 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:53:21.297845 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:53:21.795541 : INFO : subscribing to account updates
+2021-07-18 00:53:21.798846 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:53:22.296846 : INFO : purging outdated market data
+2021-07-18 00:53:22.304391 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:53:22.798077 : INFO : asking data for EUR/USD
+2021-07-18 00:53:22.810050 : INFO : updated account portfolio data
+2021-07-18 00:53:23.299306 : INFO : waiting for EUR/USD data
+2021-07-18 00:53:23.800289 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:53:59.616440 : INFO : connecting to the broker
+2021-07-18 00:54:02.122301 : INFO : received new order id: 1
+2021-07-18 00:54:02.122369 : INFO : connection successful
+2021-07-18 00:54:02.623845 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:54:03.125047 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:54:03.626166 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:54:04.126959 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:54:04.626039 : INFO : subscribing to account updates
+2021-07-18 00:54:04.628039 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:54:05.127235 : INFO : purging outdated market data
+2021-07-18 00:54:05.134632 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:54:05.628413 : INFO : asking data for EUR/USD
+2021-07-18 00:54:05.641118 : INFO : updated account portfolio data
+2021-07-18 00:54:06.129626 : INFO : waiting for EUR/USD data
+2021-07-18 00:54:06.630650 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:54:46.181361 : INFO : connecting to the broker
+2021-07-18 00:54:48.690682 : INFO : connection successful
+2021-07-18 00:54:48.690593 : INFO : received new order id: 1
+2021-07-18 00:54:49.192281 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:54:49.693561 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:54:50.194788 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:54:50.696024 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:54:51.194054 : INFO : subscribing to account updates
+2021-07-18 00:54:51.197149 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:54:51.694975 : INFO : purging outdated market data
+2021-07-18 00:54:51.698214 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:54:52.196163 : INFO : asking data for EUR/USD
+2021-07-18 00:54:52.204768 : INFO : updated account portfolio data
+2021-07-18 00:54:52.697359 : INFO : waiting for EUR/USD data
+2021-07-18 00:54:53.198355 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:55:45.069584 : INFO : connecting to the broker
+2021-07-18 00:55:47.579172 : INFO : received new order id: 1
+2021-07-18 00:55:47.579433 : INFO : connection successful
+2021-07-18 00:55:48.080686 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:55:48.582030 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:55:49.083227 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:55:49.584478 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:55:50.083147 : INFO : subscribing to account updates
+2021-07-18 00:55:50.085595 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:55:50.584393 : INFO : purging outdated market data
+2021-07-18 00:55:50.591971 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:55:51.085589 : INFO : asking data for EUR/USD
+2021-07-18 00:55:51.096066 : INFO : updated account portfolio data
+2021-07-18 00:55:51.586783 : INFO : waiting for EUR/USD data
+2021-07-18 00:55:52.087736 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:56:47.439071 : INFO : connecting to the broker
+2021-07-18 00:56:49.949006 : INFO : connection successful
+2021-07-18 00:56:49.948921 : INFO : received new order id: 1
+2021-07-18 00:56:50.450478 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:56:50.951595 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:56:51.452791 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:56:51.953896 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:56:52.452276 : INFO : subscribing to account updates
+2021-07-18 00:56:52.454911 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:56:52.953968 : INFO : purging outdated market data
+2021-07-18 00:56:52.961045 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:56:53.454516 : INFO : asking data for EUR/USD
+2021-07-18 00:56:53.464155 : INFO : updated account portfolio data
+2021-07-18 00:56:53.955665 : INFO : waiting for EUR/USD data
+2021-07-18 00:56:54.456516 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:57:48.791137 : INFO : connecting to the broker
+2021-07-18 00:57:51.296987 : INFO : received new order id: 1
+2021-07-18 00:57:51.297022 : INFO : connection successful
+2021-07-18 00:57:51.798320 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:57:52.299636 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:57:52.800924 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:57:53.302234 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:57:53.800478 : INFO : subscribing to account updates
+2021-07-18 00:57:53.803357 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:57:54.301782 : INFO : purging outdated market data
+2021-07-18 00:57:54.309394 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:57:54.803011 : INFO : asking data for EUR/USD
+2021-07-18 00:57:54.814385 : INFO : updated account portfolio data
+2021-07-18 00:57:55.304270 : INFO : waiting for EUR/USD data
+2021-07-18 00:57:55.805279 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 00:59:37.643997 : INFO : connecting to the broker
+2021-07-18 00:59:40.150995 : INFO : connection successful
+2021-07-18 00:59:40.150923 : INFO : received new order id: 1
+2021-07-18 00:59:40.652527 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 00:59:41.153744 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 00:59:41.655065 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 00:59:42.156373 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 00:59:42.654321 : INFO : subscribing to account updates
+2021-07-18 00:59:42.657511 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 00:59:43.155667 : INFO : purging outdated market data
+2021-07-18 00:59:43.162672 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 00:59:43.656973 : INFO : asking data for EUR/USD
+2021-07-18 00:59:43.666935 : INFO : updated account portfolio data
+2021-07-18 00:59:44.158200 : INFO : waiting for EUR/USD data
+2021-07-18 00:59:45.704174 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 01:01:10.488668 : INFO : connecting to the broker
+2021-07-18 01:01:12.993736 : INFO : received new order id: 1
+2021-07-18 01:01:12.993764 : INFO : connection successful
+2021-07-18 01:01:13.494660 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 01:01:13.995436 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 01:01:14.496249 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 01:01:14.997087 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 01:01:15.496834 : INFO : subscribing to account updates
+2021-07-18 01:01:15.498016 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 01:01:15.997807 : INFO : purging outdated market data
+2021-07-18 01:01:15.998860 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 01:01:16.498598 : INFO : asking data for EUR/USD
+2021-07-18 01:01:16.501592 : INFO : updated account portfolio data
+2021-07-18 01:01:16.999549 : INFO : waiting for EUR/USD data
+2021-07-18 01:01:17.500381 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 01:05:02.109418 : INFO : connecting to the broker
+2021-07-18 01:05:04.615179 : INFO : received new order id: 1
+2021-07-18 01:05:04.615417 : INFO : connection successful
+2021-07-18 01:05:05.117164 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 01:05:05.618236 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 01:05:06.118891 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 01:05:06.620196 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 01:05:07.118478 : INFO : subscribing to account updates
+2021-07-18 01:05:07.121621 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 01:05:07.619708 : INFO : purging outdated market data
+2021-07-18 01:05:07.622813 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 01:05:08.121164 : INFO : asking data for EUR/USD
+2021-07-18 01:05:08.130287 : INFO : updated account portfolio data
+2021-07-18 01:05:08.622480 : INFO : waiting for EUR/USD data
+2021-07-18 01:05:09.123299 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 01:06:59.415479 : INFO : connecting to the broker
+2021-07-18 01:07:01.922876 : INFO : received new order id: 1
+2021-07-18 01:07:01.923086 : INFO : connection successful
+2021-07-18 01:07:02.424287 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 01:07:02.925460 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 01:07:03.426780 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 01:07:03.928020 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 01:07:04.426504 : INFO : subscribing to account updates
+2021-07-18 01:07:04.429152 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 01:07:04.927761 : INFO : purging outdated market data
+2021-07-18 01:07:04.930325 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 01:07:05.429042 : INFO : asking data for EUR/USD
+2021-07-18 01:07:05.439050 : INFO : updated account portfolio data
+2021-07-18 01:07:05.930152 : INFO : waiting for EUR/USD data
+2021-07-18 01:07:06.430594 : INFO : all data for EUR/USD has been retrieved
+2021-07-18 01:08:18.111980 : INFO : connecting to the broker
+2021-07-18 01:08:20.619170 : INFO : connection successful
+2021-07-18 01:08:20.619087 : INFO : received new order id: 1
+2021-07-18 01:08:21.120631 : ERROR : 2104 Market data farm connection is OK:usfarm.nj
+2021-07-18 01:08:21.621879 : ERROR : 2104 Market data farm connection is OK:cashfarm
+2021-07-18 01:08:22.123165 : ERROR : 2104 Market data farm connection is OK:usfarm
+2021-07-18 01:08:22.624459 : ERROR : 2106 HMDS data farm connection is OK:cashhmds
+2021-07-18 01:08:23.122212 : INFO : subscribing to account updates
+2021-07-18 01:08:23.125560 : ERROR : 2106 HMDS data farm connection is OK:ushmds
+2021-07-18 01:08:23.623223 : INFO : purging outdated market data
+2021-07-18 01:08:23.627672 : ERROR : 2158 Sec-def data farm connection is OK:secdefnj
+2021-07-18 01:08:24.124381 : INFO : asking data for EUR/USD
+2021-07-18 01:08:24.133294 : INFO : updated account portfolio data
+2021-07-18 01:08:24.625430 : INFO : waiting for EUR/USD data
+2021-07-18 01:08:25.126273 : INFO : all data for EUR/USD has been retrieved

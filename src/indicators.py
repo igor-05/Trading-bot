@@ -1,8 +1,10 @@
 import warnings
 import time
+from datetime import datetime
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from vectorized_ema import ewma_vectorized_safe as ewma
 from data import market_data as test_data
@@ -10,6 +12,8 @@ import plot
 import ib_interface
 import session
 import market_data
+
+from finta import TA
 
 """
 Module storing functions returning technical indicators.
@@ -93,16 +97,43 @@ def avg_volatility(data):
 
 def bbands(data, period=20, std_multiplier=2):
     sigmas = std(data, period)
-    out = np.zeros((data.shape[0], 4))
+    out = np.zeros((data.shape[0], 4), np.float64)
     out[:, 0] = data[:, 0]  # timestamps
-    out[:, 1] = sma(data, period)  # middle band
+    out[:, 1] = sma(data, period)[:, 1]  # middle band
     out[:, 2] = out[:, 1] + sigmas[:, 1] * std_multiplier  # upper band
     out[:, 3] = out[:, 1] - sigmas[:, 1] * std_multiplier  # lower band
     return out
 
 
-def sd_zones(data):
-    pass
+def adx(data, period=14):
+    dmp = np.diff(data[:, 2])
+    dmn = -np.diff(data[:, 3])
+    dmp[np.logical_not(np.logical_and(dmp > 0, dmp > dmn))] = 0
+    dmn[np.logical_not(np.logical_and(dmn > 0, dmn > dmp))] = 0
+
+    tr = np.zeros((data.shape[0] - 1, 3), np.float64)
+    tr[:, 0] = np.abs(data[1:, 2] - data[1:, 3])
+    tr[:, 1] = np.abs(data[1:, 2] - data[:-1, 4])
+    tr[:, 2] = np.abs(data[:-1, 4] - data[1:, 3])
+    tr = np.amax(tr, axis=1)
+    atr = moving_average(tr, period)
+
+    alpha = 1 / period
+    diplus = dmp[period-1:] / atr
+    diplus = 100 * ewma(diplus, alpha)
+    diminus = dmn[period-1:] / atr
+    diminus = 100 * ewma(diminus, alpha)
+
+    ADX = np.abs(diplus - diminus) / (diplus + diminus)
+    ADX = 100 * ewma(ADX, alpha)
+
+    out = np.full((data.shape[0], 4), np.nan, dtype=np.float64)
+    out[:, 0] = data[:, 0]
+    out[period:, 1] = ADX
+    out[period:, 2] = diplus
+    out[period:, 3] = diminus
+
+    return out
 
 
 # internal :
@@ -114,7 +145,7 @@ def moving_average(a, n):
 
 def std(data, period):
     closing_prices = data[:, 4]
-    windows = np.zeros((data.shape[0] - period, period))
+    windows = np.zeros((data.shape[0] - period, period), np.float64)
     for i in range(period):
         windows[:, i] = closing_prices[i:windows.shape[0]+i]
     std = np.std(windows, axis=1)
@@ -128,7 +159,10 @@ def std(data, period):
 if __name__ == '__main__':
     ib = ib_interface.IBApi()
     session.start_session(ib)
-    market_data.ask_data(
-        ib, ["EUR/USD", ], [("4 hours", "2 Y"), ("15 mins", "6 M")])
-    data = market_data.get_data(ib, "EUR/USD", barsize="4 hours")
-    data2 = market_data.get_data(ib, "EUR/USD", barsize="15 mins")
+    market_data.ask_data(ib, ["EUR/USD", ], [("1 hour", "3 M"), ])
+    data = market_data.get_data(ib, "EUR/USD", barsize="1 hour")
+
+    ADX = adx(data)
+    dates = np.array(ADX[:, 0], dtype="object")
+    for i in range(len(dates)):
+        dates[i] = datetime.fromtimestamp(dates[i])

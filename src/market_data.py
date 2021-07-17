@@ -3,7 +3,6 @@ from datetime import datetime
 
 import numpy as np
 import pandas as pd
-import animation
 
 import settings
 import contract
@@ -41,17 +40,13 @@ def ask_data(ib, symbols, timeframes):
             ib.reqHistoricalData(reqId, symbol_contract, "", duration,
                                  barsize, data_type, 0, 1, 0, [])
         log.log(f"waiting for {symbol} data")
-        wait = animation.Wait()
-        wait.start()
         while True:
             if ib.active_data_reqs == 0:
-                wait.stop()
                 log.log(f"all data for {symbol} has been retrieved")
                 break
 
-            if (start_time - time.time()) > 120:
-                wait.stop()
-                log.log("No data after 120 secs, cancelling requests." +
+            if (start_time - time.time()) > 60:
+                log.log("No data after 60 secs, cancelling requests." +
                         " Program might have requested too much data.")
                 for reqId in reqIds:
                     ib.cancelHistoricalData(reqId)

@@ -56,6 +56,18 @@ def plot_sup_dem_zones(data, maximas, minimas):
     fig.show()
 
 
+def plot_bollinger(data):
+    b_data = indicators.bbands(data)
+    b_data = np.array(b_data, dtype="object")
+    for i in range(len(b_data)):
+        b_data[i, 0] = datetime.fromtimestamp(b_data[i, 0])
+    plt.figure(figsize=(15, 5))
+    plt.plot(b_data[:, 0], b_data[:, 1])
+    plt.plot(b_data[:, 0], b_data[:, 2])
+    plt.plot(b_data[:, 0], b_data[:, 3])
+    plt.show()
+
+
 # internal use :
 def mkt_data_fig(data):
     data = market_data.np_array_to_pd_df(data)
